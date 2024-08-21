@@ -5,15 +5,12 @@
 
 <strong>Docentes:</strong>
 - Mg. Umbert Lewis De La Cruz Rodriguez 
-- Mg. Paulo Camilo Vela Antón 
 - Mg. Marcos Retamozo Ramos
 - Mg. Moises Stevend Meza Rodriguez
 - Mg. Carol Ordoñez Aquino
 - Dr. Harry Anderson Rivera Tito  
 - Dr. Pierre Ramos Apestegui 
 - Ing. Renzo José Chan Ríos
-- Ing. Juan Manuel Zuñiga Mamani 
-
 
 <strong>Integrantes:</strong>
 - Gavidia Crovetto, Bruno Paolo
@@ -21,3 +18,14 @@
 - Cueva Ramos, José Nilson
 - Toribio Alvarado, Stephany Marilyn
 - Herrera Valeriano, Jhunior Fernando 
+
+## Introducción 
+
+## Metodología
+
+## Resultados 
+
+## Discusión
+
+## Referencias 
+
