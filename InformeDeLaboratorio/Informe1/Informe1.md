@@ -33,6 +33,13 @@ Para llevar a cabo el análisis de la regresión lineal sobre el índice de cali
 
 Los datos del AQI fueron recolectados de la base de datos pública de la United States Environmental Protection Agency (EPA). Se descargaron los datos correspondientes a los años 2022 y 2023, asegurando que incluían todos los registros necesarios para el análisis.
 
+2- Preprocesamiento de datos:
+
+Antes de realizar el análisis, se llevó a cabo una limpieza de los datos. Esto incluyó la eliminación de valores nulos o duplicados, la conversión de formatos de fecha, eliminacion de columnas con datos repetidos a los largo de esta. Además, se realizó una exploración inicial de los datos para identificar posibles patrones o anomalías.
+
+3- Análisis exploratorio de datos (EDA):
+
+Se realizó un análisis exploratorio de datos para entender mejor la distribución del AQI en los diferentes meses del año  y su relacon con las otras caracteristicas . Esto incluyó la generación de gráficos y estadísticas descriptivas para identificar tendencias y variaciones en la calidad del aire .
 
 ## Resultados 
 
