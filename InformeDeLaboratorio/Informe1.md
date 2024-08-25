@@ -19,8 +19,9 @@
 - Toribio Alvarado, Stephany Marilyn
 - Herrera Valeriano, Jhunior Fernando 
 
-## Introducción 
-
+## Introducción
+- En este informe tiene como objetivo analizar el indice de calidad del aire(AQI) en Estados Unidos durante los años 2022 y 2023
+  
 ## Metodología
 
 ## Resultados 
