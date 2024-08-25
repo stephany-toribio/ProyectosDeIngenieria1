@@ -21,7 +21,7 @@
 
 ## Introducción
 - El presente informe tiene como objetivo analizar el índice de calidad del aire (AQI) en la ciudad de Nueva York, Estados Unidos, durante los años 2022 y 2023, utilizando una regresión lineal sobre los datos obtenidos de la United States Environmental Protection Agency (EPA).
-- La importancia de medir la calidad del aire es cuidar la salud pública, prevenir los efectos a largo y corto plazo y poblaciones vulnerables.(US EPA, 2020)
+- La importancia de medir la calidad del aire es cuidar la salud pública, prevenir los efectos a largo y corto plazo y poblaciones vulnerables. Las investigaciones han demostrado que algunas personas son susceptibles que otras a contaminantes atmosféricos, donde estos grupos incluyen niños, mujeres embarazadas, adultos mayores y personas con enfermedades cardíacas y pulmonares preexistentes.(US EPA, 2020)
 
   
 ## Metodología
