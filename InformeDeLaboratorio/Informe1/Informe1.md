@@ -20,7 +20,7 @@
 - Herrera Valeriano, Jhunior Fernando 
 
 ## Introducción
-- En este informe tiene como objetivo analizar el indice de calidad del aire(AQI) en Estados Unidos durante los años 2022 y 2023
+<p>- El presente informe tiene como objetivo analizar el índice de calidad del aire (AQI) en la ciudad de Nueva York, Estados Unidos, durante los años 2022 y 2023, utilizando una regresión lineal sobre los datos obtenidos de la United States Environmental Protection Agency (EPA).</p>
   
 ## Metodología
 
