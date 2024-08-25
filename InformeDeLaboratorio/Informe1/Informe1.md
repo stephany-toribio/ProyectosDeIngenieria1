@@ -25,6 +25,12 @@
 
   
 ## Metodología
+Para llevar a cabo el análisis de la regresión lineal sobre el índice de calidad del aire (AQI) en la ciudad de Nueva York durante los años 2022 y 2023, se siguieron los siguientes pasos:
+
+1- Obtención de datos:
+
+Los datos del AQI fueron recolectados de la base de datos pública de la United States Environmental Protection Agency (EPA). Se descargaron los datos correspondientes a los años 2022 y 2023, asegurando que incluían todos los registros necesarios para el análisis.
+
 
 ## Resultados 
 
