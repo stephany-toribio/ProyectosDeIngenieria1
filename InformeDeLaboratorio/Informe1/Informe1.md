@@ -55,3 +55,5 @@ Los datos del AQI fueron recolectados de la base de datos pública de la United 
 - [1] D. S. Suárez-Moreno and J. G. Piñeros-Jiménez, "Systematization of experiences on air quality and health surveillance systems in different cities of Latin America and the Caribbean," 2019 Congreso Colombiano y Conferencia Internacional de Calidad de Aire y Salud Pública (CASP), Barranquilla, Colombia, 2019, pp. 1-7, doi: 10.1109/CASAP48673.2019.9364054.
   
 - US EPA, O. (2020, octubre 28). Research on Health Effects from Air Pollution. https://www.epa.gov/air-research/research-health-effects-air-pollution
+
+- 
