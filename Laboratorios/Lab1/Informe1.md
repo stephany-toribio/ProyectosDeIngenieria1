@@ -69,6 +69,9 @@ La precisión del modelo de regresión lineal se evaluó utilizando métricas co
 
 ## Resultados
 [Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
+
+<p>En los resultados finales obtuvimos métricas esenciales para evaluar la precisión y la capacidad de generalización de un modelo predictivo. En este caso: </p>
+
 - Media del RMSE de 0.267323... esta indicando que en promedio en las predicciones del modelo se desvian de los valores reales aproximadamente 0.267323... unidades. Esto nos hace referencia a un alto grado de precisión en la predicción, ya que la desviación es pequeña.
 ```python
 RMSE values: [0.26200398 0.27103676 0.26204986 0.26436505 0.27715953]
