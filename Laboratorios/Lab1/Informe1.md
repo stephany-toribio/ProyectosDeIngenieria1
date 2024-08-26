@@ -30,10 +30,9 @@ Para llevar a cabo el análisis de la regresión lineal sobre el índice de cali
 **1- Obtención de datos:**
 
 Los datos del AQI fueron recolectados de la base de datos pública de la United States Environmental Protection Agency (EPA). Se descargaron los datos correspondientes a los años 2022 y 2023, asegurando que incluían todos los registros necesarios para el análisis.
----
-layout: BASE DE DATOS
-redirect_to: "https://github.com/stephany-toribio/IdentificadorDeMicroplasticos/tree/main/Laboratorios/Lab1/Base_de_Datos"
----
+
+Base de datos: Laboratorios/Lab1/Base_de_Datos
+
 
 **2- Preprocesamiento de datos:**
 
