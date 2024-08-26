@@ -90,6 +90,10 @@ y_pred = lr.predict(X_test)
 
 La precisión del modelo de regresión lineal se evaluó utilizando métricas como el coeficiente de determinación (R²) , el error cuadrático medio (MSE)y Error Absoluto Medio (MAE). Además, se realizaron pruebas de validación cruzada para asegurar la robustez del modelo, en este caso usamos el kfold para evitar el sobreajuste del modelo.
 
+```python
+from sklearn.model_selection import KFold
+```
+
 ## Resultados
 [Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
 
