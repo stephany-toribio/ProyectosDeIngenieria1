@@ -61,7 +61,7 @@ Se realizó un análisis exploratorio de datos para entender mejor la distribuci
 
 **4- Construcción del modelo de regresión lineal:**
 
-Se utilizó la técnica de regresión lineal para modelar la relación entre las variables independientes seleccionadas (como el tiempo, condiciones meteorológicas, etc.) y el AQI como variable dependiente. El modelo fue ajustado utilizando métodos estándar, y se calcularon los coeficientes de regresión para cada variable.
+Se utilizó la técnica de regresión lineal para modelar la relación entre las variables independientes seleccionadas (como el tiempo, condiciones meteorológicas, etc.) y el AQI como variable dependiente.
 
 **5- Evaluación del modelo:**
 
