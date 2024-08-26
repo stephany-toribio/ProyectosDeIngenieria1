@@ -47,7 +47,7 @@ Los datos del AQI fueron recolectados de la base de datos pública de la United 
 
 Antes de realizar el análisis, se llevó a cabo una limpieza de los datos. Esto incluyó la eliminación de valores nulos o duplicados, la conversión de formatos de fecha, eliminacion de columnas con datos repetidos a los largo de esta. Además, se realizó una exploración inicial de los datos para identificar posibles patrones o anomalías.
 
-Se eliminaron columnas en los cuales en su mayoria eran codigos por tanto no eran necesarios
+Se eliminaron columnas en los cuales en su mayoria eran códigos por tanto no eran necesarios.
 ```python
 df.drop('POC', axis=1, inplace=True)
 df.drop('AQS Parameter Code', axis=1, inplace=True)
@@ -57,7 +57,7 @@ df.drop('County FIPS Code', axis=1, inplace=True)
 df.drop('Method Code', axis=1, inplace=True)
 ```
 
-A su vez también se eliminaron todos los datos tipo object, los cuales no aportan a la predicción
+A su vez también se eliminaron todos los datos tipo object, los cuales no aportan a la predicción.
 ```python
 df.drop(['Source','Units','Local Site Name','AQS Parameter Description','CBSA Name','State','County'], axis=1, inplace=True)
 ```
@@ -65,9 +65,10 @@ df.drop(['Source','Units','Local Site Name','AQS Parameter Description','CBSA Na
 
 **3- Análisis exploratorio de datos (EDA):**
 
-Se realizó un análisis exploratorio de datos para entender mejor la distribución del AQI en los diferentes meses del año  y su relacon con las otras caracteristicas . Esto incluyó la generación de gráficos y estadísticas descriptivas para identificar tendencias y variaciones en la calidad del aire .
+Se realizó un análisis exploratorio de datos para entender mejor la distribución del AQI en los diferentes meses del año  y su relacon con las otras caracteristicas . Esto incluyó la generación de gráficos y estadísticas descriptivas para identificar tendencias y variaciones en la calidad del aire.
 
-Para el uso de las series temporales, establecimos una fecha y luego a la columna "Date" lo convertimos en tipo datetime para luego segun la fecha establecida solo se filtraran en el csv los datos anteriores a esa fecha:
+Para el uso de las series temporales, establecimos una fecha y luego a la columna "Date" lo convertimos en tipo datetime para luego según la fecha establecida solo se filtraran en el csv los datos anteriores a esa fecha:
+
 ```python
 fecha_fin = '2022-12-10'
 df['Date'] = pd.to_datetime(df['Date'])
@@ -87,7 +88,7 @@ y_pred = lr.predict(X_test)
 
 **5- Evaluación del modelo:**
 
-La precisión del modelo de regresión lineal se evaluó utilizando métricas como el coeficiente de determinación (R²) , el error cuadrático medio (MSE)y Error Absoluto Medio (MAE) . Además, se realizaron pruebas de validación cruzada para asegurar la robustez del modelo, en este caso usamos el kfold para evitar el sobreajuste del modelo.
+La precisión del modelo de regresión lineal se evaluó utilizando métricas como el coeficiente de determinación (R²) , el error cuadrático medio (MSE)y Error Absoluto Medio (MAE). Además, se realizaron pruebas de validación cruzada para asegurar la robustez del modelo, en este caso usamos el kfold para evitar el sobreajuste del modelo.
 
 ## Resultados
 [Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
