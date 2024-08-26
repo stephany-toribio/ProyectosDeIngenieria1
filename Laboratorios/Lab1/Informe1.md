@@ -81,8 +81,8 @@ Se utilizó la técnica de regresión lineal para modelar la relación entre las
 
 ```python
 from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
 lr.fit(X_train, y_train)
-
 y_pred = lr.predict(X_test)
 ```
 
@@ -92,6 +92,7 @@ La precisión del modelo de regresión lineal se evaluó utilizando métricas co
 
 ```python
 from sklearn.model_selection import KFold
+kf = KFold(n_splits=5, shuffle=True, random_state=42)
 ```
 
 ## Resultados
