@@ -69,7 +69,8 @@ La precisión del modelo de regresión lineal se evaluó utilizando métricas co
 
 ## Resultados
 [Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
-
+<p>En los resultados finales obtuvimos métricas esenciales para evaluar la precisión y la capacidad de generalización de un modelo predictivo. En este caso: </p>
+- RMSE y MAE ( bajos) indican que las predicciones del modelo son bastante precisas, un R^2 (alto) sugiere que el modelo explica casi toda la variabilidad de los datos y las métricas de entrenamiento son similares al de prueba indicándonos que no esta sobreajustado y es capaz de predecir futuros datos.
 
 
 
