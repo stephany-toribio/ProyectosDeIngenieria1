@@ -3,7 +3,7 @@
   <h1 align="center">Informe I</h1>
   <style>
     h1{
-      font-size: 40px;
+      font-size: 100px;
     }
   </style>
 </p>
