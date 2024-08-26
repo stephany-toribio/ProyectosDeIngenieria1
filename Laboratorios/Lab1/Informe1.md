@@ -27,12 +27,20 @@ En las últimas décadas, el estudio de las concentraciones de los contaminantes
 
 Para llevar a cabo el análisis de la regresión lineal sobre el índice de calidad del aire (AQI) en la ciudad de Nueva York durante los años 2022 y 2023, se siguieron los siguientes pasos:
 
+**Descarga de librerías**
+
+```python
+#importar librerias para machine learning y regresion lineal
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression
+```
+
 **1- Obtención de datos:**
 
 Los datos del AQI fueron recolectados de la base de datos pública de la United States Environmental Protection Agency (EPA). Se descargaron los datos correspondientes a los años 2022 y 2023, asegurando que incluían todos los registros necesarios para el análisis.
 
 [Base de datos](https://github.com/stephany-toribio/IdentificadorDeMicroplasticos/tree/main/Laboratorios/Lab1/Base_de_Datos)
-
 
 **2- Preprocesamiento de datos:**
 
