@@ -69,9 +69,31 @@ La precisión del modelo de regresión lineal se evaluó utilizando métricas co
 
 ## Resultados
 [Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
-<p>En los resultados finales obtuvimos métricas esenciales para evaluar la precisión y la capacidad de generalización de un modelo predictivo. En este caso: </p>
-- RMSE y MAE ( bajos) indican que las predicciones del modelo son bastante precisas, un R^2 (alto) sugiere que el modelo explica casi toda la variabilidad de los datos y las métricas de entrenamiento son similares al de prueba indicándonos que no esta sobreajustado y es capaz de predecir futuros datos.
+- Media del RMSE de 0.267323... esta indicando que en promedio en las predicciones del modelo se desvian de los valores reales aproximadamente 0.267323... unidades. Esto nos hace referencia a un alto grado de precisión en la predicción, ya que la desviación es pequeña.
+```python
+RMSE values: [0.26200398 0.27103676 0.26204986 0.26436505 0.27715953]
+Mean RMSE: 0.26732303522968265
+```
 
+
+- Media del MAE de 0.205424... esta indicando que en promedio en las predicciones difieren de los valores reales aproximadamente 0.205424... unidades. Esto nos refuerza los resultados obtenidos del RMSE, mostrando una buen rendimiento en terminos de precisión general.
+```python
+MAE values: [0.20510978 0.21028109 0.19736777 0.20286455 0.21149823]
+Mean MAE: 0.20542428594276996
+
+```
+- Un R^2 (alto) sugiere que el modelo explica casi toda la variabilidad de los datos.
+
+```python
+R² values: [0.98297587 0.98056087 0.98112245 0.98264799 0.98085014]
+Mean R²: 0.9816314653381951
+```
+- Las métricas de entrenamiento son similares al de prueba indicándonos que no esta sobreajustado y es capaz de predecir futuros datos.
+```python
+Test RMSE: 0.27715952723656134
+Test MAE: 0.2114982346273682
+Test R²: 0.9808501408409329
+```
 
 
 ## Discusión
