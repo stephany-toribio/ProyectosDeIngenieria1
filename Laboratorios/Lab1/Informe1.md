@@ -1,13 +1,8 @@
 <p align="left">
   <img src="https://seeklogo.com/images/U/u-cayetano-heredia-logo-CA435ADF8C-seeklogo.com.png" width="200">
   <h1 align="center">Informe I</h1>
-  <style>
-    h1{
-      font-size: 100px;
-    }
-  </style>
 </p>
-
+ 
 <strong>Docentes:</strong>
 - Mg. Umbert Lewis De La Cruz Rodriguez 
 - Mg. Marcos Retamozo Ramos
