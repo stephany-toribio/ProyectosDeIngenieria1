@@ -57,7 +57,7 @@ df.drop('County FIPS Code', axis=1, inplace=True)
 df.drop('Method Code', axis=1, inplace=True)
 ```
 
-Asu ves tambien se eliminaron todos los datos tipo object, los cuales no aportan a la predicción
+A su vez también se eliminaron todos los datos tipo object, los cuales no aportan a la predicción
 ```python
 df.drop(['Source','Units','Local Site Name','AQS Parameter Description','CBSA Name','State','County'], axis=1, inplace=True)
 ```
