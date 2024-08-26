@@ -27,7 +27,7 @@ En las últimas décadas, el estudio de las concentraciones de los contaminantes
 
 Para llevar a cabo el análisis de la regresión lineal sobre el índice de calidad del aire (AQI) en la ciudad de Nueva York durante los años 2022 y 2023, se siguieron los siguientes pasos:
 
-**Descarga de librerías**
+**Importar las librerías**
 
 ```python
 #importar librerias para machine learning y regresion lineal
@@ -42,9 +42,18 @@ Los datos del AQI fueron recolectados de la base de datos pública de la United 
 
 [Base de datos](https://github.com/stephany-toribio/IdentificadorDeMicroplasticos/tree/main/Laboratorios/Lab1/Base_de_Datos)
 
+
 **2- Preprocesamiento de datos:**
 
 Antes de realizar el análisis, se llevó a cabo una limpieza de los datos. Esto incluyó la eliminación de valores nulos o duplicados, la conversión de formatos de fecha, eliminacion de columnas con datos repetidos a los largo de esta. Además, se realizó una exploración inicial de los datos para identificar posibles patrones o anomalías.
+
+```python
+df.drop('POC', axis=1, inplace=True)
+df.drop('AQS Parameter Code', axis=1, inplace=True)
+df.drop('CBSA Code', axis=1, inplace=True)
+df.drop('State FIPS Code', axis=1, inplace=True)
+df.drop('County FIPS Code', axis=1, inplace=True)
+```
 
 **3- Análisis exploratorio de datos (EDA):**
 
@@ -58,7 +67,9 @@ Se utilizó la técnica de regresión lineal para modelar la relación entre las
 
 La precisión del modelo de regresión lineal se evaluó utilizando métricas como el coeficiente de determinación (R²) , el error cuadrático medio (MSE)y Error Absoluto Medio (MAE) . Además, se realizaron pruebas de validación cruzada para asegurar la robustez del modelo
 
-## Resultados 
+## Resultados
+[Colab del laboratorio](https://colab.research.google.com/drive/1NUe_PaJCw6_VrwuNAMcw2oVl9_nWhxDZ?usp=sharing)
+
 
 
 
