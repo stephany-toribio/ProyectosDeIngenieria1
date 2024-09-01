@@ -18,3 +18,6 @@
 - Cueva Ramos, José Nilson
 - Toribio Alvarado, Stephany Marilyn
 - Herrera Valeriano, Jhunior Fernando
+
+Codigo del laboratorio:
+https://colab.research.google.com/drive/1ifuLXepFPd_iCNMgDHo9G4BuLgLB9A14?usp=sharing
