@@ -19,5 +19,8 @@
 - Toribio Alvarado, Stephany Marilyn
 - Herrera Valeriano, Jhunior Fernando
 
-Codigo del laboratorio:
+[Código del laboratorio](https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Laboratorios/Lab2/Lab_II(Semana_2).ipynb)
+
+Código del laboratorio en coolab:
 https://colab.research.google.com/drive/1ifuLXepFPd_iCNMgDHo9G4BuLgLB9A14?usp=sharing
+
