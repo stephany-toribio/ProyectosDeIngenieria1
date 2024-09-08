@@ -51,7 +51,11 @@ Se siguieron los siguientes pasos.
   <img src="https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e" alt="Descripción de la imagen" style="width: 500px; height: 260px;">
 </p>
 
-**2- Entrenamiento:** 
+2- Entrenamiento:
+
+El modelo fue entrenado utilizando Edge Impulse, con datos recogidos del acelerómetro y giroscopio del Arduino Nano 33 BLE Sense. La arquitectura del modelo incluyó una capa de entrada con 117 características, dos capas densas (una con 20 neuronas y otra con 10 neuronas) y una capa de salida con 3 clases (círculo, número 3 y número 1). Se entrenó con 30 ciclos (epochs), una tasa de aprendizaje de 0.001 y un tamaño de lote de 32.
+El entrenamiento, que duró unos pocos minutos, alcanzó una precisión del 90% y una perdida de 0.09.
+![image](https://github.com/user-attachments/assets/144c4ef9-cde0-483d-95c6-b662bd79b990)
 
 ## Resultados
 
