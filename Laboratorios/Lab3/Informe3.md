@@ -34,11 +34,12 @@ El primer paso para entrenar el modelo de TinyML fue la recopilación de los dat
 
 A través de la plataforma Edge Impulse, se creó un proyecto para capturar estos datos en tiempo real mientras el Arduino realizaba los movimientos correspondientes a cada patrón. 
 Se siguieron los siguientes pasos.
-Configuración de la plataforma: Se inició el proyecto en Edge Impulse y se conectó el Arduino Nano 33 BLE Sense utilizando el agente de datos de Edge Impulse, lo cual permitió transmitir los datos de los sensores directamente a la plataforma.
 
-Grabación de los movimientos: Para cada clase de patrón (círculo, número 3 y número 1), se realizaron múltiples grabaciones moviendo el Arduino en el aire para dibujar las formas. Se realizaron al menos 50 muestras por cada patrón, con una duración promedio de 3 segundos por muestra, para asegurar una cantidad suficiente de datos que permitiera una buena generalización del modelo.
+- Configuración de la plataforma: Se inició el proyecto en Edge Impulse y se conectó el Arduino Nano 33 BLE Sense utilizando el agente de datos de Edge Impulse, lo cual permitió transmitir los datos de los sensores directamente a la plataforma.
 
-Ajuste de parámetros: Durante la captura de datos, se ajustaron parámetros como la frecuencia de muestreo a 100 Hz para capturar los cambios más sutiles en los movimientos del dispositivo. Este nivel de precisión fue necesario para asegurar que el modelo pudiera diferenciar entre los patrones, evitando confusiones entre formas similares.
+- Grabación de los movimientos: Para cada clase de patrón (círculo, número 3 y número 1), se realizaron múltiples grabaciones moviendo el Arduino en el aire para dibujar las formas. Se realizaron al menos 50 muestras por cada patrón, con una duración promedio de 3 segundos por muestra, para asegurar una cantidad suficiente de datos que permitiera una buena generalización del modelo.
+
+- Ajuste de parámetros: Durante la captura de datos, se ajustaron parámetros como la frecuencia de muestreo a 100 Hz para capturar los cambios más sutiles en los movimientos del dispositivo. Este nivel de precisión fue necesario para asegurar que el modelo pudiera diferenciar entre los patrones, evitando confusiones entre formas similares.
 
 **2- Entrenamiento:** 
 
