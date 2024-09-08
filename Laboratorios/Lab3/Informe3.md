@@ -25,10 +25,8 @@ La Inteligencia Artificial (IA), en los ultimos años se ha convertido en uno de
 El presente informe tiene como objetivo evaluar la capacidad de inferencia del modelo para la identificación correcta de patrones implementando un modelo de TinyML en el microcontrolador Arduino Nano 33 BLE Sense para encender un LED rojo cuando se dibuje un circulo, un LED azul cuando se dibuje el número 3 y un LED verde cuando se dibuje el número 1. En consecuencia, este informe abordará la implementación del modelo, los resultados y las conclusiones conclusiones obtenidas. 
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/94b2adda-3e01-4a65-8c1e-3c935c486853" alt="Descripción de la imagen">
+  <img src="https://github.com/user-attachments/assets/94b2adda-3e01-4a65-8c1e-3c935c486853" alt="Descripción de la imagen" style="width: 350px; height: 220px;">
 </p>
-
-
 
 ## Metodología
 
@@ -49,7 +47,9 @@ Se siguieron los siguientes pasos.
 
 - Segmentación de los datos: Los datos recolectados fueron etiquetados según el patrón correspondiente (círculo, número 3 y número 1).
 
-![image](https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e" alt="Descripción de la imagen" style="width: 450px; height: 220px;">
+</p>
 
 **2- Entrenamiento:** 
 
