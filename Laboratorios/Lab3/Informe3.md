@@ -41,6 +41,10 @@ Se siguieron los siguientes pasos.
 
 - Ajuste de parámetros: Durante la captura de datos, se ajustaron parámetros como la frecuencia de muestreo a 100 Hz para capturar los cambios más sutiles en los movimientos del dispositivo. Este nivel de precisión fue necesario para asegurar que el modelo pudiera diferenciar entre los patrones, evitando confusiones entre formas similares.
 
+- Segmentación de los datos: Los datos recolectados fueron etiquetados según el patrón correspondiente (círculo, número 3 y número 1).
+
+![image](https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e)
+
 **2- Entrenamiento:** 
 
 ## Resultados
