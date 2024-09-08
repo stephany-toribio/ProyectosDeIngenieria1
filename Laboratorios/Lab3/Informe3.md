@@ -28,7 +28,11 @@ El presente informe tiene como objetivo evaluar la capacidad de inferencia del m
 
 Este apartado abarcarrá la implementación del modelo en el Arduino Nano 33 BLE Sense mediante los siguientes pasos:
 
-**1- Obtención de datos:** 
+1- Obtención de datos:
+
+El primer paso para entrenar el modelo de TinyML fue la recopilación de los datos de entrada, necesarios para que el modelo pudiera aprender a identificar los patrones específicos de movimiento: círculo, número 3 y número 1. Para esto, se utilizó el Arduino Nano 33 BLE Sense, que cuenta con sensores de movimiento integrados, como el acelerómetro y el giroscopio.
+
+A través de la plataforma Edge Impulse, se creó un proyecto para capturar estos datos en tiempo real mientras el Arduino realizaba los movimientos correspondientes a cada patrón
 
 **2- Entrenamiento:** 
 
