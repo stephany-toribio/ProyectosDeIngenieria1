@@ -20,3 +20,10 @@
 - Herrera Valeriano, Jhunior Fernando 
 
 ## Introducción
+
+## Metodología
+
+## Resultados
+
+## Referencias
+
