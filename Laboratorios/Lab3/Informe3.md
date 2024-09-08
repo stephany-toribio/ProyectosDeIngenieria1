@@ -24,6 +24,12 @@
 La Inteligencia Artificial (IA), en los ultimos años se ha convertido en uno de los pilares de la transformación digital aportando soluciones innovadoras a diversos campos de investigación. A pesar de ello, la IA no se presenta como una solución inmediata a los problemas que se busca resolver, debido al alto costo de computación que requiere. Es así como surge TinyML, una alternativa que permite realizar tecnología sin la preocupación de los recursos computacionales [1].  
 El presente informe tiene como objetivo evaluar la capacidad de inferencia del modelo para la identificación correcta de patrones implementando un modelo de TinyML en el microcontrolador Arduino Nano 33 BLE Sense para encender un LED rojo cuando se dibuje un circulo, un LED azul cuando se dibuje el número 3 y un LED verde cuando se dibuje el número 1. En consecuencia, este informe abordará la implementación del modelo, los resultados y las conclusiones conclusiones obtenidas. 
 
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/94b2adda-3e01-4a65-8c1e-3c935c486853" alt="Descripción de la imagen">
+</p>
+
+
+
 ## Metodología
 
 Este apartado abarcarrá la implementación del modelo en el Arduino Nano 33 BLE Sense mediante los siguientes pasos:
