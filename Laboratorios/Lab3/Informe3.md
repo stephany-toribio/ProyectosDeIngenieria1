@@ -22,10 +22,10 @@
 ## Introducción
 
 La Inteligencia Artificial (IA), en los ultimos años se ha convertido en uno de los pilares de la transformación digital aportando soluciones innovadoras a diversos campos de investigación. A pesar de ello, la IA no se presenta como una solución inmediata a los problemas que se busca resolver, debido al alto costo de computación que requiere. Es así como surge TinyML, una alternativa que permite realizar tecnología sin la preocupación de los recursos computacionales [1].  
-El presente informe tiene como objetivo evaluar la capacidad de inferencia del modelo para la identificación correcta de patrones implementando un modelo de TinyML en el microcontrolador Arduino Nano 33 BLE Sense para encender un LED rojo cuando se dibuje un circulo, un LED azul cuando se dibuje el número 3 y un LED verde cuando se dibuje el número 1. En consecuencia, este informe abordará la implementación del modelo, los resultados y las conclusiones conclusiones obtenidas. 
+El presente informe tiene como objetivo evaluar la capacidad de inferencia del modelo para la identificación correcta de patrones implementando un modelo de TinyML en el microcontrolador Arduino Nano 33 BLE Sense para encender un LED rojo cuando se dibuje un circulo, un LED azul cuando se dibuje el número 3 y un LED verde cuando se dibuje el número 1. En consecuencia, este informe abordará la implementación del modelo, los resultados y las conclusiones obtenidas. 
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/94b2adda-3e01-4a65-8c1e-3c935c486853" alt="Descripción de la imagen" style="width: 400px; height: 250px;">
+  <img src="https://github.com/user-attachments/assets/94b2adda-3e01-4a65-8c1e-3c935c486853" alt="Descripción de la imagen" style="width: 450px; height: 250px;">
 </p>
 
 ## Metodología
@@ -34,21 +34,20 @@ Este apartado abarcarrá la implementación del modelo en el Arduino Nano 33 BLE
 
 1- Obtención de datos:
 
-El primer paso para entrenar el modelo de TinyML fue la recopilación de los datos de entrada, necesarios para que el modelo pueda aprender a identificar los patrones específicos de movimiento: círculo, número 3 y número 1. Para esto, se utilizó el Arduino Nano 33 BLE Sense, que cuenta con sensores de movimiento integrados, como el acelerómetro y el giroscopio.
+El primer paso para entrenar el modelo de TinyML fue la recopilación de los datos de entrada, los cuales son necesarios para que el modelo pueda aprender a identificar los patrones específicos de movimiento: círculo, número 3 y número 1. Para esto, se utilizó el Arduino Nano 33 BLE Sense, que cuenta con sensores de movimiento integrados, como el acelerómetro y el giroscopio.
 
-A través de la plataforma Edge Impulse, se creó un proyecto para capturar estos datos en tiempo real mientras el Arduino realizaba los movimientos correspondientes a cada patrón. 
-Se siguieron los siguientes pasos.
+A través de la plataforma Edge Impulse, se creó un proyecto para capturar estos datos en tiempo real mientras el Arduino realizaba los movimientos correspondientes a cada patrón. Para ello se realizaron los pasos descritos a continuación: 
 
 - Configuración de la plataforma: Se inició el proyecto en Edge Impulse y se conectó el Arduino Nano 33 BLE Sense utilizando el agente de datos de Edge Impulse, lo cual permitió transmitir los datos de los sensores directamente a la plataforma.
 
-- Grabación de los movimientos: Para cada clase de patrón (círculo, número 3 y número 1), se realizaron múltiples grabaciones moviendo el Arduino en el aire para dibujar las formas. Se realizaron al menos 50 muestras por cada patrón, con una duración promedio de 3 segundos por muestra, para asegurar una cantidad suficiente de datos que permitiera una buena generalización del modelo.
+- Grabación de los movimientos: Para cada clase de patrón (círculo, número 3 y número 1), se realizaron múltiples grabaciones moviendo el Arduino en el aire para dibujar las formas. Se realizaron al menos 50 muestras por cada patrón con una duración promedio de 3 segundos por muestra para asegurar una cantidad suficiente de datos que permitiera una buena generalización del modelo.
 
 - Ajuste de parámetros: Durante la captura de datos, se ajustaron parámetros como la frecuencia de muestreo a 100 Hz para capturar los cambios más sutiles en los movimientos del dispositivo. Este nivel de precisión fue necesario para asegurar que el modelo pudiera diferenciar entre los patrones, evitando confusiones entre formas similares.
 
 - Segmentación de los datos: Los datos recolectados fueron etiquetados según el patrón correspondiente (círculo, número 3 y número 1).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e" alt="Descripción de la imagen" style="width: 500px; height: 260px;">
+  <img src="https://github.com/user-attachments/assets/2effffd3-8027-4ef9-9113-a21f72204b6e" alt="Descripción de la imagen" style="width: 550px; height: 260px;">
 </p>
 
 2- Entrenamiento:
@@ -63,5 +62,3 @@ El entrenamiento, que duró unos pocos minutos, alcanzó una precisión del 90% 
 ## Referencias
 
 - [1]	Y. Abadade, A. Temouden, H. Bamoumen, N. Benamar, Y. Chtouki, y A. S. Hafid, “A Comprehensive Survey on TinyML”, IEEE Access, vol. 11, pp. 96892–96922, 2023.
-
-- [2]	R. Sanchez-Iborra y A. F. Skarmeta, “TinyML-enabled frugal smart objects: Challenges and opportunities”, IEEE Circuits Syst. Mag., vol. 20, núm. 3, pp. 4–18, thirdquarter 2020.
