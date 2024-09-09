@@ -59,6 +59,13 @@ El entrenamiento, que duró unos pocos minutos, alcanzó una precisión del 90% 
 
 ## Resultados
 
+
+## Conclusiones
+
+  La inteligencia artificial es una de las herramientas mas potentes y utilizadas en la actualidad  debido a que permite a las computadoras o maquinas razonar y aprender tal cual persona humana[2]. El machine learning una rama de la IA, dependiente la configuración humana a través de la experiencia y los datos, nos permite "enseñar" a alguna maquina para así lograr mejoras en la toma de deciciones. Entrando al TinyML nos da la posibilidad de  desplegar modelos de machine learning en sistemas embedios, durante este laboratorio trabajamos esta tecnología junto con un Arduino Nano 33 BLE Sense, entendiendo la facilidad de creación del modelo de ML gracias a Edge impulse, si bien es cierto tuvimos complicaciones en el apartado de ejecutar el código en ArduinoIDE, a pesar de tener una buena base de datos, sin embargo obtuvimos aprendizajes de Tiny machine learning lo cual nos permitira desarrollar proyectos más escalables.
+
 ## Referencias
 
 - [1]	Y. Abadade, A. Temouden, H. Bamoumen, N. Benamar, Y. Chtouki, y A. S. Hafid, “A Comprehensive Survey on TinyML”, IEEE Access, vol. 11, pp. 96892–96922, 2023.
+
+- [2] Google Cloud, https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419
