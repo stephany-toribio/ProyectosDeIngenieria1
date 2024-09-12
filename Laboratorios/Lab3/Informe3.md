@@ -59,7 +59,11 @@ El entrenamiento, que duró unos pocos minutos, alcanzó una precisión del 90% 
 
 ## Resultados
 
+![Uploading image.png…]()
+
+
 [Código](https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Laboratorios/Lab3/Código.c)
+
 [Modelo en Edge impulse](https://studio.edgeimpulse.com/public/515462/live)
 
 ## Conclusiones
