@@ -1,4 +1,4 @@
-[![PaPURE](https://readme-typing-svg.demolab.com/?lines=GAto;La puta)](https://git.io/typing-svg)
+[![PaPURE](https://readme-typing-svg.demolab.com/?lines=GAto;La+puta)](https://git.io/typing-svg)
 
 # Proyecto:  Monitoreo de la calidad del aire y el suelo
 
