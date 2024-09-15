@@ -9,4 +9,4 @@ durante este periodo nosotros como equipo decidimos desarollar  un modulo de par
 |Jose N. Cueva Ramos|Ingeniería Informática|Coordinador de desarrollo Web |jose.cueva@upch.pe|
 |Camilo S. Silva Cuzqui|Ingeniería Informática|Coordinador de desarrollo Web |camilo.silva@upch.pe|
 |Bruno P. Gavidia Crovetto|Ingeniería Informática|Coordinador de software|mm|
-|Jhunior F. Herrera Valeriano|Ingeniería Informática|Coordinador de Hardware|mm|
+|Jhunior F. Herrera Valeriano|Ingeniería Informática|Coordinador de Hardware|[Linkedin](https://www.linkedin.com/in/jhunior-herrera-valeriano-358350294/)|
