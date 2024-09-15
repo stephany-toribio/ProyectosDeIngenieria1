@@ -1,5 +1,3 @@
-[![PaPURE](https://readme-typing-svg.demolab.com/?lines=GAto;La+puta)](https://git.io/typing-svg)
-
 # Proyecto:  Monitoreo de la calidad del aire y el suelo
 
 Somos un grupo de 5 estudiantes de la carrera de Ingeniería informatíca en la Universidad Peruana Cayetano Heredia,
