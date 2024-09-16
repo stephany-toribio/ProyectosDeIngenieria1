@@ -5,8 +5,8 @@ durante este periodo nosotros como equipo decidimos desarollar  un modulo de par
 
 |Integrantes |Carrera|Cargo|Contacto|
 |------------|-------|-----|--------|
-|Stephany M. Toribio Alvarado|Ingeniería Informática|Coordinadora de modelado 3D|mmm|
-|Jose N. Cueva Ramos|Ingeniería Informática|Coordinador de desarrollo Web |jose.cueva@upch.pe|
+|Stephany M. Toribio Alvarado|Ingeniería Informática|Coordinadora de Modelado 3D|stephany.toribio@upch.pe|
+|Jose N. Cueva Ramos|Ingeniería Informática|Coordinador de Desarrollo Web |jose.cueva@upch.pe|
 |Camilo S. Silva Cuzqui|Ingeniería Informática|Coordinador de IT |camilo.silva@upch.pe|
-|Bruno P. Gavidia Crovetto|Ingeniería Informática|Coordinador de software|bruno.gavidia@upch.pe|
+|Bruno P. Gavidia Crovetto|Ingeniería Informática|Coordinador de Software|bruno.gavidia@upch.pe|
 |Jhunior F. Herrera Valeriano|Ingeniería Informática|Coordinador de Hardware|[Linkedin](https://www.linkedin.com/in/jhunior-herrera-valeriano-358350294/)|
