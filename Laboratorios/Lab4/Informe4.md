@@ -24,3 +24,11 @@
 </p>
 
 ## Introducción
+
+## Metodología
+
+## Resultados
+
+## Discusión [opcional]
+
+## Referencias [en IEEE]
