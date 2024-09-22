@@ -67,7 +67,7 @@ El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y tem
 
 
 
-## Vdeo del funcionamiento del el DashBoard --Humedadsensor & humedad del Ambiente
+## Vdeo del funcionamiento del el DashBoard, Sensor de hUmedad en la tierra & humedad del Ambiente
 
 
 https://github.com/user-attachments/assets/153e67ca-1442-43d6-9dee-e5ad4aee72ba
