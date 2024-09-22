@@ -24,11 +24,33 @@
 </p>
 
 ## Introducción
+Este trabajo grupal consistió en convertir el **MKR IoT Carrier** en un dispositivo agrícola urbano. Se utilizaron sensores para monitorear el ambiente de una planta y relés para controlar dispositivos de alta potencia. El objetivo fue crear un entorno ideal y controlado para el crecimiento de la planta, utilizando **Arduino Cloud** para la visualización y control remoto de los datos.
 
-## Metodología
 
-## Resultados
+## Objetivos de Aprendizaje
+- Configuración de un entorno agrícola urbano.
+- Entender cómo funcionan los relés y el sensor de humedad.
+- Crear un ambiente adecuado para una planta.
 
-## Discusión [opcional]
+## Componentes Utilizados
+- **Arduino MKR WiFi 1010**: Controlador principal.
+- **MKR IoT Carrier**: Sensores para monitorear el ambiente.
+- **Sensor de humedad**: Mide la humedad del suelo.
+- **Relés**: Activan dispositivos de alta potencia.
+- **Cable Micro USB**: Para alimentación y programación.
 
-## Referencias [en IEEE]
+## Creación del Panel de Control
+Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
+
+| Variable             | Widget         | Rango       |
+|----------------------|----------------|-------------|
+| humedad              | Porcentaje     | 0 - 100     |
+| temperatura          | Indicador      | -40 - 100   |
+| luz                  | Valor          | n/a         |
+| humedadValor         | Porcentaje     | 0 - 100     |
+| relé_1, relé_2       | Switch         | n/a         |
+| rgbColor             | Luz coloreada  | n/a         |
+| actualizaciónPantalla| Switch         | n/a         |
+
+El panel permite monitorear y controlar variables como la temperatura, humedad, luz, y activar dispositivos como luces mediante los relés.
+
