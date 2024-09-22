@@ -54,3 +54,23 @@ Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 
 El panel permite monitorear y controlar variables como la temperatura, humedad, luz, y activar dispositivos como luces mediante los relés.
 
+
+![image](https://github.com/user-attachments/assets/be51aceb-dc91-480f-a23b-8d6568330ea8)
+
+
+## Monitorización y Control
+El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y temperatura, y cuatro widgets para control, permitiendo activar los relés y ajustar las luces. Esto permite mantener condiciones ideales para la planta (ejemplo: aloe vera), controlando el sistema de manera remota.
+
+![image](https://github.com/user-attachments/assets/710ac2b2-4ff8-40fd-a07d-abd7fd7cbec5)
+
+![image](https://github.com/user-attachments/assets/a28bcead-007e-4a9a-a611-152db9f82020)
+
+
+
+
+
+
+https://github.com/user-attachments/assets/153e67ca-1442-43d6-9dee-e5ad4aee72ba
+
+
+
