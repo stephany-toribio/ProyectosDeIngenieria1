@@ -54,18 +54,22 @@ Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 
 El panel permite monitorear y controlar variables como la temperatura, humedad, luz, y activar dispositivos como luces mediante los relés.
 
-
-![image](https://github.com/user-attachments/assets/be51aceb-dc91-480f-a23b-8d6568330ea8)
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/be51aceb-dc91-480f-a23b-8d6568330ea8">
+</p>
 
 ## Monitorización y Control
 El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y temperatura, y cuatro widgets para control, permitiendo activar los relés y ajustar las luces. Esto permite mantener condiciones ideales para la planta (ejemplo: aloe vera), controlando el sistema de manera remota.
+<p align="center">
 
-![image](https://github.com/user-attachments/assets/710ac2b2-4ff8-40fd-a07d-abd7fd7cbec5)
+<img src="https://github.com/user-attachments/assets/710ac2b2-4ff8-40fd-a07d-abd7fd7cbec5">
 
-![image](https://github.com/user-attachments/assets/a28bcead-007e-4a9a-a611-152db9f82020)
+</p>
 
+<p align="center">
+<img src=https://github.com/user-attachments/assets/a28bcead-007e-4a9a-a611-152db9f82020">
 
+</p>
 
 ## Vdeo del funcionamiento del el DashBoard, Sensor de hUmedad en la tierra & humedad del Ambiente
 
