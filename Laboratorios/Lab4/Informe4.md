@@ -43,7 +43,7 @@ Este trabajo grupal consistió en convertir el **MKR IoT Carrier** en un disposi
 - **Cable Micro USB**: Para alimentación y programación.
 
 ## Creación del Panel de Control
-Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
+En primer lugar, se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 
 | Variable             | Widget         | Rango       |
 |----------------------|----------------|-------------|
@@ -56,7 +56,7 @@ Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 | actualizaciónPantalla| Switch         | n/a         |
 
 ### Thing
-Colocamos estos parámetros en un thing
+Posteriormente, se colocó estos parámetros en un thing
 
 ![thing](thing.png)
 <p align="center" class="note text-center note-white">FUENTE: Figura 1. THING Arduino Cloud</p>
@@ -68,6 +68,7 @@ El panel permite monitorear y controlar variables como la temperatura, humedad, 
 
 ## Monitorización y Control
 El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y temperatura, y cuatro widgets para control, permitiendo activar los relés y ajustar las luces. Esto permite mantener condiciones ideales para la planta (ejemplo: aloe vera), controlando el sistema de manera remota.
+
 <p align="center">
 
 <img src="https://github.com/user-attachments/assets/710ac2b2-4ff8-40fd-a07d-abd7fd7cbec5">
@@ -81,16 +82,19 @@ El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y tem
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 4. Elaboración Propia</p>
 
-## Vdeo del funcionamiento del el DashBoard, Sensor de Humedad en la tierra & humedad del Ambiente
+Se puede revisar el [código](https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Laboratorios/Lab4/Sketch.c).
 
-
+## Video del funcionamiento del el DashBoard, Sensor de Humedad en la tierra & humedad del Ambiente
 https://github.com/user-attachments/assets/153e67ca-1442-43d6-9dee-e5ad4aee72ba
 
 ## Video del funcionamiento del las Luces RGB , sensor de luz y funcionamiento del los Relé
-
 https://github.com/user-attachments/assets/fe6c3902-3731-4b86-9c52-435665b9c664
 
-##Referencias Bibliográficas
+## Discusión
+Los resultados obtenidos indican que se conectó exitosamente el Arduino MKR IoT Carrier a la plataforma IoT, en el que los sensores respondieron adecuadamente a los comandos enviados desde la nube. No obstante, se observaron pequeños retrasos en las respuestas y algunos problemas en cuanto a la conectividad y el limite de dispositivos conectados.
+
+## Referencias Bibliográficas
+
 [1] Unirioja.es. [En línea]. Disponible en: https://dialnet.unirioja.es/servlet/articulo?codigo=7210369. [Consultado: 23-sep-2024].
 
 [2] E. Pagliari, L. Davoli, y G. Ferrari, “Harnessing communication heterogeneity: Architectural design, analytical modeling, and performance evaluation of an IoT multi-interface gateway”, IEEE Internet Things J., vol. 11, núm. 5, pp. 8030–8051, 2024. 
