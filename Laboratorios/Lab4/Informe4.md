@@ -55,12 +55,14 @@ Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 ### Thing
 
 
-Colocamos estos parametros en un thing
+Colocamos estos parámetros en un thing
 
-![thing](image.png)
+![thing](thing.png)
 
 
 El panel permite monitorear y controlar variables como la temperatura, humedad, luz, y activar dispositivos como luces mediante los relés.
+
+![alt text](Dashboard.png)
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/be51aceb-dc91-480f-a23b-8d6568330ea8">
