@@ -24,8 +24,11 @@
 </p>
 
 ## Introducción
-Este trabajo grupal consistió en convertir el **MKR IoT Carrier** en un dispositivo agrícola urbano. Se utilizaron sensores para monitorear el ambiente de una planta y relés para controlar dispositivos de alta potencia. El objetivo fue crear un entorno ideal y controlado para el crecimiento de la planta, utilizando **Arduino Cloud** para la visualización y control remoto de los datos.
+El internet de las Cosas (IoT) surgió como una respuesta a la necesidad de un control inmediato sobre los objetos de nuestro alrededor a través de conexiones de red. En este sentido, las útimas tecnologías que desarrolladas por IoT incluyen el desarrollo de diversos nodos inalámbricos equipados con sensores para ser utilizados en áreas como la industria, la salud, las ciudades inteligentes y la agricultura inteligente [1].
 
+En los últimos años, la agricultura inteligente en los países desarrollados ha crecido exponencialmente gracias a la introducción del Internet de las Cosas para automatizar el trabajo agrícola. Este crecimiento está impulsado en gran medida por la capacidad del IoT para recopilar y analizar la información [2].
+
+Este trabajo grupal consistió en convertir el **MKR IoT Carrier** en un dispositivo agrícola urbano. Se utilizaron sensores para monitorear el ambiente de una planta y relés para controlar dispositivos de alta potencia. El objetivo fue crear un entorno ideal y controlado para el crecimiento de la planta, utilizando **Arduino Cloud** para la visualización y control remoto de los datos.
 
 ## Objetivos de Aprendizaje
 - Configuración de un entorno agrícola urbano.
@@ -53,8 +56,6 @@ Se creó un panel de control en **Arduino Cloud** con los siguientes widgets:
 | actualizaciónPantalla| Switch         | n/a         |
 
 ### Thing
-
-
 Colocamos estos parámetros en un thing
 
 ![thing](thing.png)
@@ -89,5 +90,7 @@ https://github.com/user-attachments/assets/153e67ca-1442-43d6-9dee-e5ad4aee72ba
 
 https://github.com/user-attachments/assets/fe6c3902-3731-4b86-9c52-435665b9c664
 
+##Referencias Bibliográficas
+[1] Unirioja.es. [En línea]. Disponible en: https://dialnet.unirioja.es/servlet/articulo?codigo=7210369. [Consultado: 23-sep-2024].
 
-
+[2] E. Pagliari, L. Davoli, y G. Ferrari, “Harnessing communication heterogeneity: Architectural design, analytical modeling, and performance evaluation of an IoT multi-interface gateway”, IEEE Internet Things J., vol. 11, núm. 5, pp. 8030–8051, 2024. 
