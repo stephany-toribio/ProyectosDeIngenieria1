@@ -75,7 +75,7 @@ El panel cuenta con cuatro widgets para monitoreo de sensores como humedad y tem
 <p align="center" class="note text-center note-white">FUENTE: Figura 3. Elaboración Propia</p>
 
 <p align="center">
-<img src=https://github.com/user-attachments/assets/a28bcead-007e-4a9a-a611-152db9f82020">
+<img src="https://github.com/user-attachments/assets/a28bcead-007e-4a9a-a611-152db9f82020">
 
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 4. Elaboración Propia</p>
