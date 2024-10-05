@@ -20,5 +20,5 @@
 - Herrera Valeriano, Jhunior Fernando 
 
 <p align="left">
-  <h1 align="center">IoT</h1>
+  <h1 align="center">Simulación de esfuerzo mecánico</h1>
 </p>
