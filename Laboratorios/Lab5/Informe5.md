@@ -38,7 +38,7 @@ El componente seleccionado para la simulación es una **Soporte Metálico**, el 
 <p align="center"><strong>Figura 1: Soporte Métalico en Onshape</strong></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dc929bb6-7f32-481c-bc64-cbf00eb65527" width="220" height="280">
+  <img src="https://github.com/user-attachments/assets/dc929bb6-7f32-481c-bc64-cbf00eb65527" width="320" height="380">
 </p>
 
 <p align="center" class="note text-center note-white">FUENTE: Figura 1. Elaboración Propia</p>
@@ -56,7 +56,7 @@ La simulación fue realizada en **SimScale**, empleando los siguientes pasos de 
 <p align="center"><strong>Figura 2: Importación del componente desde Onshape</strong></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e35b7e0-61da-4fe1-812e-1a888b67f292" width="320" height= "400">
+  <img src="https://github.com/user-attachments/assets/8e35b7e0-61da-4fe1-812e-1a888b67f292" width="380" height= "450">
 </p>
 
 <p align="center" class="note text-center note-white">FUENTE: Figura 2. Elaboración Propia</p>
@@ -87,7 +87,7 @@ La simulación fue realizada en **SimScale**, empleando los siguientes pasos de 
 <p align="center"><strong>Figura 4: Simulación</strong></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/87e12ded-0c2c-4cbf-b516-fc8fef239f94" width="600">
+  <img src="https://github.com/user-attachments/assets/87e12ded-0c2c-4cbf-b516-fc8fef239f94" width="400">
 </p>
 
 <p align="center" class="note text-center note-white">FUENTE: Figura 4. Elaboración Propia</p>
