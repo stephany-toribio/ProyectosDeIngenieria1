@@ -35,6 +35,10 @@ El componente seleccionado para la simulación es una **Insertar nombre dle obje
 ## 3. Configuración de la Simulación
 La simulación fue realizada en **SimScale**, empleando los siguientes pasos de configuración:
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dc929bb6-7f32-481c-bc64-cbf00eb65527" width="300">
+</p>
+
 ### 3.1 Creación del Proyecto
 - Se creó un proyecto bajo el nombre **"Proyectos_de_ingenieria_1"**.
 - Se seleccionaron las unidades de medida en metros.
