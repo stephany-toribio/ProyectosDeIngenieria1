@@ -42,7 +42,7 @@ La simulación fue realizada en **SimScale**, empleando los siguientes pasos de 
 ### 3.2 Importación de Geometría
 - Se importó la geometría del componente desde **OnShape**, asegurando que las piezas se visualizaran correctamente.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e35b7e0-61da-4fe1-812e-1a888b67f292" width="200">
+  <img src="https://github.com/user-attachments/assets/8e35b7e0-61da-4fe1-812e-1a888b67f292" width="300">
 </p>
 
 
