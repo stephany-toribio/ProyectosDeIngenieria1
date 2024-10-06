@@ -41,6 +41,15 @@ Determina los niveles de concentración máxima de contaminantes del aire en su 
 |                                                 | 8 horas     | 10000             | Media aritmética móvil                 |                                                              |
 
 
-NE: No exceder 
+*NE: No exceder* 
 D.S. 010-2019-MINAM, Protocolo Nacional de Monitoreo de la Calidad Ambiental del Aire 
 Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o también llamados “Low cost sensors”, son considerados como un procedimiento de medición alternativo. Asimismo, los resultados obtenidos a partir de dichos instrumentos sólo pueden ser comparados con los Estándares de Calidad Ambiental (ECA).
+
+
+## Referencias bibliográficas
+Asociación Automotriz del Perú (2021). 2021: PERÚ CON LA PEOR CALIDAD DE AIRE ENTRE LOS PAÍSES DE LA REGIÓN. AAP Perú. Recuperado de https://aap.org.pe/iqair-calidad-de-aire-peru-mala-aap/#:~:text=De%20otro%20lado%2C%20si%20revisamos,de%20aire%20m%C3%A1s%20deficiente%20con
+National Geographic (2020). Riesgo para los desiertos. Recuperado de  https://www.nationalgeographic.es/medio-ambiente/riesgos-para-los-desiertos
+Organización Mundial de la Salud (2018). Nueve de cada diez personas en el mundo respiran aire contaminado. Recuperado  de    https://www.who.int/es/news/item/02-05-2018-9-out-of-10-people-worldwide-breathe-polluted-air-but-more-countries-are-taking-action
+“Niño global comenzó en el mundo, pero aún no en Perú, ¿ Cuándo se sentirán los efectos ?” (2023). El Peruano. Recuperado de https://www.elperuano.pe/noticia/216933-nino-global-comenzo-en-el-mundo-pero-aun-no-en-peru-cuando-se-sentiran-sus-efectos
+Servicio Nacional de Metereología e Hidrología del Perú. (2023). Fenómeno El Niño: Condiciones actuales de El Niño: Se mantiene el estado de alerta de El Niño Costero. Recuperado de https://www.senamhi.gob.pe/?p=fenomeno-el-nino
+
