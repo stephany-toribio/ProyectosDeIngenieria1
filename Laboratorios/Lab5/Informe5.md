@@ -79,7 +79,7 @@ La simulación fue realizada en **SimScale**, empleando los siguientes pasos de 
 
 ### Condiciones de Soporte y Carga
 - Las caras inferiores de la carcasa fueron fijadas para simular su anclaje a una base sólida.
-- Se aplicó una carga de **-1000 N** en el eje Z, simulando la presión de un componente que descansa sobre la carcasa.
+- Se aplicó una carga de **-70 N** en el eje Y, simulando la presión de un componente que descansa sobre la carcasa.
 
 ### Ejecución de la Simulación
 - La simulación se ejecutó en varios pasos incrementales para obtener una mayor precisión en los resultados.
