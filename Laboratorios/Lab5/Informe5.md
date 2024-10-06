@@ -24,7 +24,7 @@
 </p>
 
 ## 1. Introducción
-El propósito de este informe es desarrollar una simulación de esfuerzos estáticos en un componente mecánico de nuestro proyecto a desarrollar ene le curso, en el contexto de los proyectos de ingeniería expuestos en la guía de diseño y ensayo de modelos 3D para piezas impresas o diseñadas para nuestro proyecto. Esta simulación tiene como objetivo analizar el comportamiento del componente bajo ciertas condiciones de carga.
+El propósito de este informe es desarrollar una simulación de esfuerzos estáticos en un componente mecánico de nuestro proyecto a desarrollar en el curso. Esta simulación tiene como objetivo analizar el comportamiento del componente bajo ciertas condiciones de carga.
 
 ## 2. Descripción del Componente
 El componente seleccionado para la simulación es una **Insertar nombre dle objeto** de soporte para un componente electrónico, que será sometido a diferentes tipos de esfuerzos mecánicos, incluyendo torsión, tracción y flexión. La carcasa está modelada con las siguientes características clave que afectan su resistencia:
