@@ -29,8 +29,6 @@ Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del 
 
 # Requerimientos de la propuesta 
 
-# Lista de Requerimientos
-
 |-|Proyecto|Hera-Tharu|
 |----|-----------------------|------|
 |-|Cliente|UNIVERSIDAD PERUANA CAYETANO HEREDIA|
@@ -41,17 +39,15 @@ Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del 
 |-|**Cliente:**| UNIVERSIDAD PERUANA CAYETANO HEREDIA|  
 |-|**Elaborado:**| J.H, S.T, B.G, J.C, S.S|
 
-
-
 | **Deseo o Exigencia** | **Descripción** | **Responsable** |
 |-|-|-|
-| **E**                 | **Función principal:** El sistema debe monitorear los parámetros que se establecerán relacionados con el aire y del suelo en la sede de Santa María. Norma - ISO 14001 (Sistemas de gestión ambiental) | J.H, S.T, B.G, J.C, S.S |
-| **E**                 | **Cuantificación:** Todos los sensores deben estar calibrados de acuerdo con las normativas vigentes y los estándares internacionales de medición para garantizar la precisión de los datos obtenidos. El proceso de calibración debe realizarse de manera periódica, y se implementarán mecanismos de notificación en caso de que algún sensor requiera recalibración. Norma - ISO 10012 (Sistemas de gestión de medición) Norma - ISO 17025 (Requisitos generales para la competencia de laboratorios de ensayo y calibración) | J.H, S.T, B.G, J.C, S.S |
+| **E**                 | **Función principal:** El sistema debe monitorear los parámetros que se establecerán relacionados con el aire y del suelo en la sede de Santa María. Norma - ISO 14001 (Sistemas de gestión ambiental) [4] | J.H, S.T, B.G, J.C, S.S |
+| **E**                 | **Cuantificación:** Todos los sensores deben estar calibrados de acuerdo con las normativas vigentes y los estándares internacionales de medición para garantizar la precisión de los datos obtenidos. El proceso de calibración debe realizarse de manera periódica, y se implementarán mecanismos de notificación en caso de que algún sensor requiera recalibración. Norma - ISO 10012 (Sistemas de gestión de medición) [5] Norma - ISO 17025 (Requisitos generales para la competencia de laboratorios de ensayo y calibración) [6] | J.H, S.T, B.G, J.C, S.S |
 | **E**                 | **Energía:** Se debe asegurar que el sistema cuente con un suministro de energía adecuado para soportar largos períodos de operación. El sistema utilizará un amperaje de 9 y contará con un panel solar de 20W para recargar la batería. | B.G |
 | **E**                 | **Señales (Información):** Los protocolos de comunicación utilizados serán I2C y SPI, conforme a las especificaciones de los sensores. | J.C |
 | **E**                 | **Resistencia Estructural:** El peso máximo del prototipo será de 12.8N. Con el soporte metálico y componentes energéticos (panel solar y cargador de batería), el peso total no deberá exceder los 102.5N. | S.S |
 | **E**                 | **Electrónico (Hardware):** El sistema estará equipado con nueve sensores diseñados para medir diversos parámetros de la calidad del aire y del suelo, incluyendo la temperatura y la humedad, la concentración de CO2 en el aire, metano, monóxido de carbono, ozono, la humedad del suelo, y CO2 en el suelo. | J.H |
-| **E**                 | **Software:** <br> **Recopilación de Datos:** El sistema debe ser capaz de recopilar mediciones durante 30 minutos y calcular el promedio para luego ser enviados a la base de datos. Debe implementar los protocolos de comunicación I2C y SPI para la integración con los sensores. <br> **Almacenamiento de Datos:** Los datos recopilados deben ser almacenados en una base de datos (local o en la nube). La base de datos debe poder gestionar múltiples tipos de sensores, almacenando la fecha, hora y ubicación de cada medición. El sistema debe realizar copias de seguridad periódicas para evitar pérdida de datos. <br> **Presentación de Datos:** Se debe desarrollar una página web que permita a los usuarios: Visualizar los datos mediante gráficos interactivos. Descargar los datos en formato CSV o Excel. La página web debe ser accesible desde cualquier navegador y adaptarse a diferentes tamaños de pantalla (responsiva). Norma - ISO 27001. | J.C, B.G, S.S |
+| **E**                 | **Software:** <br> **Recopilación de Datos:** El sistema debe ser capaz de recopilar mediciones durante 30 minutos y calcular el promedio para luego ser enviados a la base de datos. Debe implementar los protocolos de comunicación I2C y SPI para la integración con los sensores. <br> **Almacenamiento de Datos:** Los datos recopilados deben ser almacenados en una base de datos (local o en la nube). La base de datos debe poder gestionar múltiples tipos de sensores, almacenando la fecha, hora y ubicación de cada medición. El sistema debe realizar copias de seguridad periódicas para evitar pérdida de datos. <br> **Presentación de Datos:** Se debe desarrollar una página web que permita a los usuarios: Visualizar los datos mediante gráficos interactivos. Descargar los datos en formato CSV o Excel. La página web debe ser accesible desde cualquier navegador y adaptarse a diferentes tamaños de pantalla (responsiva). Norma - ISO 27001 [7]. | J.C, B.G, S.S |
 | **D**                 | **Predicción:** Se implementarán modelos de machine learning para la predicción de parámetros basados en los datos obtenidos por los sensores. | J.H, S.T, B.G, J.C, S.S |
 | **D**                 | **Geometría:** El tamaño del prototipo, incluyendo todos los componentes físicos, no deberá exceder de las dimensiones de 22 cm x 22.5 cm x 13.4 cm. | S.T |
 | **E**                 | **Sostenibilidad:** El sistema utilizará materiales sostenibles, como el ácido poliláctico (PLA), un polímero biodegradable que contribuye a la reducción del impacto ambiental. Además, contará con un panel solar y una batería recargable para su funcionamiento. | S.T |
@@ -75,7 +71,6 @@ Determina los niveles de concentración máxima de contaminantes del aire en su 
 |                                                 | Anual       | 50                | Media aritmética anual                  |                                                              |
 | Monóxido de Carbono (CO)                        | 1 hora      | 30000             | NE más de 1 vez al año                 | Infrarrojo no dispersivo (NDIR) (Método no automático)        |
 |                                                 | 8 horas     | 10000             | Media aritmética móvil                 |                                                              |
-
 *NE: No exceder* 
 D.S. 010-2019-MINAM, Protocolo Nacional de Monitoreo de la Calidad Ambiental del Aire 
 Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o también llamados “Low cost sensors”, son considerados como un procedimiento de medición alternativo. Asimismo, los resultados obtenidos a partir de dichos instrumentos sólo pueden ser comparados con los Estándares de Calidad Ambiental (ECA).
@@ -86,7 +81,11 @@ Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o 
 - [2] R. Quiza, L. A. V. Fajardo, and Y. J. C. Hernández, "Arquitectura de monitoreo inteligente y de bajo costo para sistemas y procesos mecánicos," Low-cost intelligent monitoring architecture for mechanical systems and processes.
 
 - [3] "Fenómeno El Niño", Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI). [En línea]. Disponible: https://www.senamhi.gob.pe/?p=fenomeno-el-nino, 2024.
+  
 - [4] ISO 14001:2015(es), Sistemas de gestión ambiental—Requisitos con orientación para su uso. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso:std:iso:14001:ed-3:v1:es
+  
 - [5] ISO 10012:2003(es), Sistemas de gestión de las mediciones—Requisitos para los procesos de medición y los equipos de medición. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso%3Astd%3Aiso%3A10012%3Aed-1%3Av1%3Aes
+
 - [6] ISO/IEC 17025:2017(es), Requisitos generales para la competencia de los laboratorios de ensayo y calibración. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui/#iso:std:iso-iec:17025:ed-3:v2:es
+  
 - [7]  ISO 27001—Certificado ISO 27001 punto por punto—Presupuesto Online. (s. f.). Norma ISO 27001. Recuperado 6 de octubre de 2024, de https://www.normaiso27001.es/
