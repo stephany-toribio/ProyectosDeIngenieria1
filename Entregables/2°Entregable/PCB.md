@@ -75,9 +75,9 @@ Nuestro circuito electronico ha sufrido cambios comparado con la pcb que mostram
 
 A continuacion explicaremos los cambios realizados y comparando con la antigua pcb.
 
-1. Se cambio el microcontrolador
-2. se agrego una bornera para la sim800l y se dejo de utiliza el sc7
-3. Cambios todos los pines por borneras
+1. Se cambio el microcontrolador de esp32 a teensy, para optimizar las conexiones de los puertos uart y los demas pines.
+2. Se agrego una bornera para la sim800l y se dejo de utilizar el SC16IS750, placa usada para ampliar puertos uart
+3. Cambios todos los pines por borneras para un mayor compacto y seguridad con las conexiones.
 
 
 <p align="center">
