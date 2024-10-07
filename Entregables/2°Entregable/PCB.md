@@ -17,5 +17,28 @@ Luego, teninedo posesion de la pcb comensamos a soldar y colocar los respectivos
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 2(PCB). Elaboración Propia</p>
 
-En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del funcionamiento de la mayoria de lo sensores(antes de soldarlo en la pcb), las fotos de la pcb sin soldar y soldada, y una carpeta de videos en donde observara el funcionamiento de los sensores conectados
+
+En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del funcionamiento de la mayoria de lo sensores(antes de soldarlo en la pcb), sensores en especifico(BM280, MQ-131, MQ-4, MQ-7), las fotos de la pcb sin soldar y soldada, y una carpeta de videos en donde observara el funcionamiento de los sensores conectados
 [Carpeta Evidencias](https://github.com/stephany-toribio/ProyectosDeIngenieria1/tree/main/Entregables/2%C2%B0Entregable/Evidencia)
+
+<p align="left">
+  <h2 align="center">Condición actual</h2>
+</p>
+
+Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramos con anterioridad, primero explicaremos las conexiones y luego mencionaremos los cambios que se realizaron.
+
+- Primer elemento
+- Segundo elemento
+- Tercer elemento
+
+* Primer elemento
+* Segundo elemento
+* Tercer elemento
+
+1. Primer elemento
+   1. Sub-elemento 1
+   2. Sub-elemento 2
+2. Segundo elemento
+   1. Sub-elemento 1
+   2. Sub-elemento 2
+3. Tercer elemento
