@@ -1,4 +1,6 @@
-# Fichas técnicas
+
+<h1 align="center">Ficha técnica</h1>
+
 
 
 # THARU
@@ -31,7 +33,7 @@
 * **Dimensiones del chip:** Depende del módulo, típicamente 18 mm x 25.5 mm (ESP32-WROOM-32)
 
 [https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)  
-**GY-BME 280**  
+## **GY-BME 280**  
 **Definición:** El GY-BME280 es un sensor ambiental versátil que mide la presión barométrica, la temperatura y la humedad relativa. Fabricado por Bosch, este sensor es preciso y eficiente, y se utiliza en una variedad de aplicaciones, como estaciones meteorológicas, dispositivos portátiles, sistemas domóticos y proyectos de IoT. El GY-BME280 proporciona salidas digitales que se pueden integrar fácilmente con microcontroladores y plataformas de desarrollo como Arduino y Raspberry Pi.
 
 **Características técnicas**
@@ -56,7 +58,7 @@
 
 
 [https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf](https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf)   
-**MQ-7**  
+## **MQ-7**  
 **Definición:** El MQ-7 es un sensor de gas diseñado para detectar monóxido de carbono (CO) en el aire. Utiliza un sensor electroquímico para medir la concentración de CO y genera una señal analógica que puede ser interpretada por microcontroladores como Arduino. Es ampliamente utilizado en aplicaciones de monitoreo de calidad del aire y sistemas de seguridad debido a su alta sensibilidad y rápida respuesta.
 
 **Características técnicas**
@@ -109,7 +111,7 @@
 
 
 [https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/ML8511\_3-8-13.pdf](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/ML8511_3-8-13.pdf)  
-**MQ-4**
+## **MQ-4**
 
 **Definición:** El MQ-4 es un sensor de gas semiconductor diseñado principalmente para detectar gas metano (CH4) y gases naturales. Este sensor es conocido por su alta sensibilidad y su rápida respuesta a las concentraciones de gas, lo que lo hace ideal para aplicaciones como la detección de fugas de gas y la monitorización ambiental.
 
@@ -262,7 +264,7 @@
 
 [https://www.electronicoscaldas.com/datasheet/YL-69-HL-69.pdf](https://www.electronicoscaldas.com/datasheet/YL-69-HL-69.pdf) 
 
-**PIRANÓMETRO**
+## **PIRANÓMETRO**
 
 **Descripción:** El piranómetro GS-WV es el instrumento ideal para mediciones de radiación solar, planificación del riego y automatización de invernaderos. El sensor de radiación solar mide la radiación global solar de 300 hasta 2800 nm, con un amplificador de señal interno y una carcasa impermeable que no requiere mantenimiento solo limpieza incidentalmente del domo de cuarzo.
 
