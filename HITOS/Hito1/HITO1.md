@@ -58,11 +58,9 @@ Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del 
 | **E**                 | **Costos:** El presupuesto estimado del proyecto es de 2700 soles, con una contingencia de 300 soles. | |
 
 # Marco legal
-Ley N° 28611, Ley General del Ambiente 
-En el artículo 133 se establece que “la vigilancia y el monitoreo ambiental tienen como fin generar la información que permita orientar la adopción de medidas que aseguren el cumplimiento de los objetivos de la política y normativa ambiental. La Autoridad Ambiental Nacional establece los criterios para el desarrollo de las acciones de vigilancia y monitoreo”.
-D.S. 003-2017-MINAM, Estándares de Calidad Ambiental  para aire y establecen disposiciones complementarias 
-Determina los niveles de concentración máxima de contaminantes del aire en su condición de  cuerpo receptor, con la finalidad de garantizar el bienestar de la salud pública y la conservación de la calidad ambiental.
-
+La Ley N° 28611, Ley General del Ambiente en el artículo 133 
+<a href="HITOS/Hito1/Avances/docs/ECAs_Aire_DS-003-2017-minam (1).pdf" target="_blank">ECAs Aire DS-003-2017-MINAM</a>, en la cual se establece que “la vigilancia y el monitoreo ambiental tienen como fin generar la información que permita orientar la adopción de medidas que aseguren el cumplimiento de los objetivos de la política y normativa ambiental. La Autoridad Ambiental Nacional establece los criterios para el desarrollo de las acciones de vigilancia y monitoreo”.
+D.S. 003-2017-MINAM, Estándares de Calidad Ambiental  para el aire y establecen disposiciones complementarias.  Así como tambien, se determina los niveles de concentración máxima de contaminantes del aire en su condición de  cuerpo receptor, con la finalidad de garantizar el bienestar de la salud pública y la conservación de la calidad ambiental. A continuación, se muestra la tabla: 
 | **Parámetros**                                  | **Período** | **Valor [µg/m³]** | **Criterios de evaluación**             | **Método de análisis**                                       |
 |-------------------------------------------------|-------------|-------------------|-----------------------------------------|--------------------------------------------------------------|
 | Material Particulado con diámetro menor a 2.5 micras (PM₂.₅) | 24 horas    | 50                | NE más de 7 veces al año               | Separación inercial/filtración (Gravimetría)                  |
@@ -71,9 +69,13 @@ Determina los niveles de concentración máxima de contaminantes del aire en su 
 |                                                 | Anual       | 50                | Media aritmética anual                  |                                                              |
 | Monóxido de Carbono (CO)                        | 1 hora      | 30000             | NE más de 1 vez al año                 | Infrarrojo no dispersivo (NDIR) (Método no automático)        |
 |                                                 | 8 horas     | 10000             | Media aritmética móvil                 |                                                              |
+
 *NE: No exceder* 
 D.S. 010-2019-MINAM, Protocolo Nacional de Monitoreo de la Calidad Ambiental del Aire 
 Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o también llamados “Low cost sensors”, son considerados como un procedimiento de medición alternativo. Asimismo, los resultados obtenidos a partir de dichos instrumentos sólo pueden ser comparados con los Estándares de Calidad Ambiental (ECA).
+
+En cuánto a las <a href="HITOS/Hito1/Avances/docs/CO2_normas" target="_blank">normas de estadarización del CO2 en el aire</a>
+se establecen valores de 300 a 400 ppm.
 
 ## Referencias bibliográficas
 - [1] "Mapa de la calidad del aire de Lima", IQAir. https://www.iqair.com/es/air-quality-map/peru/lima?srsltid=AfmBOopwM0paCNeouABMqZmJEZUl5LN06b_j0DpkatJDI7UwTqjHL-NP.
