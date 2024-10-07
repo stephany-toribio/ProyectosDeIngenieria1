@@ -1,9 +1,7 @@
 
 <h1 align="center">Ficha técnica</h1>
 
-
-
-# THARU
+<h1 align="center">THARU</h1>
 
 
 
