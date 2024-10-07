@@ -30,11 +30,11 @@ Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramo
 
 
 1. Teensy (microcontrolador)
-   1. El microcontrolador Tensy recibira todas las señales de los sensores conectados a sus pines.
-   2. Su voltaje al cual haremos funcionar sera de 5v y sus pines de funcionaran a 3.3v.
+     - El microcontrolador Tensy recibira todas las señales de los sensores conectados a sus pines.
+     - Su voltaje al cual haremos funcionar sera de 5v y sus pines de funcionaran a 3.3v.
 2. MQ-7
-   1. Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
-   2. Su en
+     - Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
+     - Su en
 3. MQ4
     - Sub-elemento 1
     - Sub-elemento 2 
