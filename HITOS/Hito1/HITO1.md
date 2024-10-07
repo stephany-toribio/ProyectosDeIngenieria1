@@ -80,7 +80,7 @@ se establecen valores de 300 a 400 ppm.
 
 
 <p align="left">
-  <h1 align="center">PCB</h1>
+  <h1 align="left">PCB</h1>
 </p>
 
 Partiendo de nuestra primera configuración de circuito electrónico, fue impresa por un servicio de terceros obteniendo nuetra primera placa PCB.
