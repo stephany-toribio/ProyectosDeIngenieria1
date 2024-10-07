@@ -26,7 +26,7 @@ En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del 
   <h2 align="center">Modificación posterior</h2>
 </p>
 
-Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramos con anterioridad, primero explicaremos las conexiones y luego mencionaremos los cambios que se realizaron.
+Nuestro circuito electronico ha sufrido cambios comparado con la pcb que mostramos con anterioridad, primero explicaremos las conexiones y luego mencionaremos los cambios que se realizaron.
 
 
 1. Teensy (microcontrolador)
@@ -70,3 +70,5 @@ Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramo
     - Se encontrara conectado directamente al Teensy.
     - Su voltaje de alimentacion es de 5v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
     - Mandara la informacion recolectada a Thingspeak (software de visualizacion de datos).
+
+### Comparación
