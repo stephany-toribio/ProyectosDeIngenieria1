@@ -12,8 +12,8 @@ Partiendo de nuestra primera configuración de circuito electrónico, fue impres
 Posteriormente, teninedo posesion de la pcb comensamos a soldar y colocar los respectivos sensores, resitencias, transitores y borneras como se observara en las imagenes de acontinuación.
 
 <p align="center">
-  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB%20ENSAMBLADA.jpg" alt="PCB ensamblada" width="45%">
-  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB-ENSABLADA2.jpg" alt="PCB ensamblada 2" width="45%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB%20ENSAMBLADA.jpg" alt="PCB ensamblada" width="40%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB-ENSABLADA2.jpg" alt="PCB ensamblada 2" width="40%">
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 2(PCB). Elaboración Propia</p>
 
