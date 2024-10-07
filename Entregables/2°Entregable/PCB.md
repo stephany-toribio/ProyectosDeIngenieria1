@@ -34,25 +34,39 @@ Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramo
      - Su voltaje al cual haremos funcionar sera de 5v y sus pines de funcionaran a 3.3v.
 2. MQ-7
      - Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
-     - Su en
+     - Su voltaje de operacion es de 5v y debido al divisor de voltaje logra conectarse al teensy trabaja a 3.3v.
+     - Medira el monoxido de oxigeno.
 3. MQ4
-    - Sub-elemento 1
-    - Sub-elemento 2 
+    - Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
+    - Su voltaje de operacion es de 5v y debido al divisor de voltaje logra conectarse al teensy trabaja a 3.3v.
+    - Medira el metano 
 4. MQ-131
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
+    - Su voltaje de operacion es de 5v y debido al divisor de voltaje logra conectarse al teensy trabaja a 3.3v.
+    - Medira el ozono.
 5. MHZ-19
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado directamente al Teensy.
+    - Su voltaje de alimentacion es de 5v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
+    - Medira el dioxido de carbono.
 6. GY-BME-280
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado directamente al Teensy.
+    - Su voltaje de alimentacion es de 3.3v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
+    - Medira Temperatura y humedad en el ambiente.
 7. YL-69
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
+    - Su voltaje de operacion es de 5v y debido al divisor de voltaje logra conectarse al teensy trabaja a 3.3v.
+    - Medira la humedad del suelo
 8. PMS-5003
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado directamente al Teensy.
+    - Su voltaje de alimentacion es de 5v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
 9. Piranometro
-    - Sub-elemento 1
-    - Sub-elemento 2
+    - Se encontrara conectado a un transceptor de comunicación (MAX 485) necesario para la comunicacion con el microcontrolador, en este caso el teensy.
+    - Su voltaje de operacion es de 12 v por tanto a traves de un transistor se reducira su voltaje de operacion a 5v para poder usar el max485.
+    1. Max-485
+        - Se encontrara conectado directamente al Teensy.
+        - Su voltaje de alimentacion es 3.3v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
+    - Medira la radiacion solar
+10. SIM800L
+    - Se encontrara conectado directamente al Teensy.
+    - Su voltaje de alimentacion es de 5v y su voltaje de operacion es de 3.3v, por tanto en este caso no requiere de un divisor de voltaje.
+    - Mandara la informacion recolectada a Thingspeak (software de visualizacion de datos).
