@@ -32,7 +32,7 @@ Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramo
 1. Primer elemento
    1. Sub-elemento 1
    2. Sub-elemento 2
-   * hola
+   - holas
 2. Segundo elemento
    1. Sub-elemento 1
    2. Sub-elemento 2
