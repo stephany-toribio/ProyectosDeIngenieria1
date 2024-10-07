@@ -31,9 +31,9 @@ Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del 
 
 | **...** | **Descripción** | 
 |-|-|
-| **Descripción general**                 | Este sistema esta diseñado para monitorear parámetros clave del **aire** y del **suelo**, el cuál se encuentra equipado con sensores ya calibrados y con un sistema de alimentación por panel solar asegurando el funcionamiento constante para operar.
+| **Descripción general**                 | Este sistema esta diseñado para monitorear parámetros clave del **aire** y del **suelo**, el cuál se encuentra equipado con sensores ya calibrados y con un sistema de alimentación por panel solar asegurando el funcionamiento constante para operar.[4]
 | **Sensores e Integración**                 |  El sistema mide la **temperatura, humedad, material particulado, CO2, CO, metano, ozono, radiación UV del aire y CO2 y temperatura del suelo**. Se utilizará una placa **PCB**  que permitirá la integración de todos los sensores en un solo sistema.
-| **Software**                 | Recopilación de datos durante **30min** implementando protocolos de **comunicación I2C o SPI**, almacenados en una base de datos, visualizar los datos en gráficos y  descargar los datos en **formato CSV o Excel**.
+| **Software**                 | Recopilación de datos durante **30min** implementando protocolos de **comunicación I2C o SPI**, almacenados en una base de datos, visualizar los datos en gráficos y  descargar los datos en **formato CSV o Excel**. [5]
 | **Resistencia y Geometría** |            Presenta un peso máximo : **12.8 N** y el peso del soporte y componentes energéticos es menor igual a  **102.5 N** y las dimensiones del prototipo son de **22 cm x 22.5 cm x 13.4 cm**.
 | **Mantenimiento y sostenibilidada** |            El plan de mantenimiento que se realizara cada **2 meses** consta de calibración, limpieza y verificación del estado de los componentes. Por el lado de la sostenibilidad, se utilizará un polímero biodegradable para reducir el impacto ambiental como el ácido poliláctico (**PLA**). 
 
@@ -64,10 +64,5 @@ Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o 
 - [3] "Fenómeno El Niño", Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI). [En línea]. Disponible: https://www.senamhi.gob.pe/?p=fenomeno-el-nino, 2024.
 
 - [4] ISO 14001:2015(es), Sistemas de gestión ambiental—Requisitos con orientación para su uso. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso:std:iso:14001:ed-3:v1:es
-
-- [5] ISO 10012:2003(es), Sistemas de gestión de las mediciones—Requisitos para los procesos de medición y los equipos de medición. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso%3Astd%3Aiso%3A10012%3Aed-1%3Av1%3Aes
   
-- [6] ISO/IEC 17025:2017(es), Requisitos generales para la competencia de los laboratorios de ensayo y calibración. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui/#iso:std:iso-iec:17025:ed-3:v2:es
-  
-- [7] ISO 27001—Certificado ISO 27001 punto por punto—Presupuesto Online. (s. f.). Norma ISO 27001. Recuperado 6 de octubre de 2024, de https://www.normaiso27001.es/
-- 
+- [5] ISO 27001—Certificado ISO 27001 punto por punto—Presupuesto Online. (s. f.). Norma ISO 27001. Recuperado 6 de octubre de 2024, de https://www.normaiso27001.es/
