@@ -36,23 +36,23 @@ Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramo
    1. Se encontrara conectado a traves de un divisor de voltaje formado con resistencias al Teensy.
    2. Su en
 3. MQ4
-  - Sub-elemento 1
-  - Sub-elemento 2 
+    - Sub-elemento 1
+    - Sub-elemento 2 
 5. MQ-131
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
 6. MHZ-19
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
 7. GY-BME-280
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
 8. YL-69
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
 9. PMS-5003
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
 10. Piranometro
-  - Sub-elemento 1
-  - Sub-elemento 2
+    - Sub-elemento 1
+    - Sub-elemento 2
