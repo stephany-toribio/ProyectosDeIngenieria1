@@ -12,13 +12,13 @@ Partiendo de nuestra primera configuración de circuito electrónico, fue impres
 Posteriormente, teninedo posesion de la pcb comensamos a soldar y colocar los respectivos sensores, resitencias, transitores y borneras como se observara en las imagenes de acontinuación.
 
 <p align="center">
-  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/PCB%20ENSAMBLADA.jpg" alt="PCB ensamblada" width="45%">
-  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/PCB-ENSABLADA2.jpg" alt="PCB ensamblada 2" width="45%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB%20ENSAMBLADA.jpg" alt="PCB ensamblada" width="45%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB-ENSABLADA2.jpg" alt="PCB ensamblada 2" width="45%">
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 2(PCB). Elaboración Propia</p>
 
 
-En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del funcionamiento de la mayoria de lo sensores(antes de soldarlo en la pcb), sensores en especifico(BM280, MQ-131, MQ-4, MQ-7), las fotos de la pcb sin soldar y soldada, y una carpeta de videos en donde observara el funcionamiento de los sensores conectados
+En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del funcionamiento de la mayoria de lo sensores(antes de soldarlo en la pcb), sensores en especifico(BM280, MQ-131, MQ-4, MQ-7) y una carpeta de videos en donde observara el funcionamiento de los sensores conectados
 
 [Carpeta Evidencias](https://github.com/stephany-toribio/ProyectosDeIngenieria1/tree/main/Entregables/2%C2%B0Entregable/Evidencia)
 
