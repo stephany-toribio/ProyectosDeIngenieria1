@@ -16,3 +16,6 @@ Luego, teninedo posesion de la pcb comensamos a soldar y colocar los respectivos
   <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/PCB-ENSABLADA2.jpg" alt="PCB ensamblada 2" width="45%">
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 2(PCB). Elaboración Propia</p>
+
+En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del funcionamiento de la mayoria de lo sensores(antes de soldarlo en la pcb), las fotos de la pcb sin soldar y soldada, y una carpeta de videos en donde observara el funcionamiento de los sensores conectados
+[Carpeta Evidencias](https://github.com/stephany-toribio/ProyectosDeIngenieria1/tree/main/Entregables/2%C2%B0Entregable/Evidencia)
