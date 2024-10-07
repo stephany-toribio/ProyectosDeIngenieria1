@@ -72,3 +72,17 @@ Nuestro circuito electronico ha sufrido cambios comparado con la pcb que mostram
     - Mandara la informacion recolectada a Thingspeak (software de visualizacion de datos).
 
 ### Comparación
+
+A continuacion explicaremos los cambios realizados y comparando con la antigua pcb.
+
+1. Se cambio el microcontrolador
+2. se agrego una bornera para la sim800l y se dejo de utiliza el sc7
+3. Cambios todos los pines por borneras
+
+
+<p align="center">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/Circuito_antiguo.png" alt="PCB ensamblada" width="45%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/Circuito_PI_G3.jpg" alt="PCB ensamblada 2" width="45%">
+</p>
+<p align="center" class="note text-center note-white">FUENTE: Figura 3(Circuito electricos). Elaboración Propia</p>
+<p> Izquierda circuito antiguo --- Derecha circuito actualizado </p>
