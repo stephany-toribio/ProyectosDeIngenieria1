@@ -29,11 +29,12 @@ En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del 
 Nuestro circuito electronico a sufrido cambios comparado con la pcb que mostramos con anterioridad, primero explicaremos las conexiones y luego mencionaremos los cambios que se realizaron.
 
 
-1. Primer elemento
+1. Teensy (microcontrolador)
+   1. El microcontrolador Tensy recibira todas las señales de los sensores conectados a sus pines.
+   2. Su voltaje al cual haremos funcionar sera de 5v y sus pines de funcionaran a 3.3v.
+2. MQ-7
    1. Sub-elemento 1
    2. Sub-elemento 2
-   - holas
-2. Segundo elemento
-   1. Sub-elemento 1
-   2. Sub-elemento 2
-3. Tercer elemento
+3. MQ4
+4. MQ-131
+5. MHZ-19
