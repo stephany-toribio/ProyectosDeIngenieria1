@@ -85,4 +85,4 @@ A continuacion explicaremos los cambios realizados y comparando con la antigua p
   <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/Circuito_PI_G3.jpg" alt="PCB ensamblada 2" width="45%">
 </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 3(Circuito electricos). Elaboración Propia</p>
-<p> Izquierda circuito antiguo --- Derecha circuito actualizado </p>
+<p align="center" class="note text-center note-white" > Izquierda circuito antiguo --- Derecha circuito actualizado </p>
