@@ -1,26 +1,9 @@
 # Fichas técnicas
 
-# 
 
 # THARU
 
-# 
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-#  
 
 ## **ESP32** 
 
@@ -68,6 +51,9 @@
 * Sensores integrados: Sensor de temperatura, sensor de humedad, sensor de presión  
 * Temperatura de almacenamiento: \-40°C a \+85°C
 
+  ![image](https://github.com/user-attachments/assets/705e78db-bdc0-44ae-8ce1-f2272d130ee7)
+
+
 [https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf](https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf)   
 **MQ-7**  
 **Definición:** El MQ-7 es un sensor de gas diseñado para detectar monóxido de carbono (CO) en el aire. Utiliza un sensor electroquímico para medir la concentración de CO y genera una señal analógica que puede ser interpretada por microcontroladores como Arduino. Es ampliamente utilizado en aplicaciones de monitoreo de calidad del aire y sistemas de seguridad debido a su alta sensibilidad y rápida respuesta.
@@ -88,6 +74,8 @@
 * Dimensiones del módulo: Aproximadamente 32 mm x 22 mm x 27 mm  
 * Sensores integrados: Sensor de gas MQ-7  
 * Temperatura de almacenamiento: \-20°C a \+50°C
+
+ ![image](https://github.com/user-attachments/assets/ae96865a-70ba-46e3-8cff-cd24a88a8535)
 
 [https://www.pololu.com/file/0j313/mq7.pdf](https://www.pololu.com/file/0j313/mq7.pdf)   
 [https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) 
@@ -111,6 +99,9 @@
 * Rango de temperatura de operación: \-20°C a \+70°C  
 * Dimensiones del módulo: Aproximadamente 9.5 mm x 8.2 mm x 2.2 mm  
 * Conexiones: VCC, GND, OUT (salida analógica), EN (habilitación, se conecta a VCC para activar el sensor)
+
+![image](https://github.com/user-attachments/assets/c98fa77b-06f7-4cd8-b2c1-7c1aebe34b66)
+
 
 [https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/ML8511\_3-8-13.pdf](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/ML8511_3-8-13.pdf)  
 **MQ-4**
@@ -136,6 +127,7 @@
 * Salidas de conexión: VCC, GND, AO (Salida Analógica), DO (Salida Digital, con umbral ajustable en algunos módulos)
 
 
+![image](https://github.com/user-attachments/assets/9ed38e41-4341-4007-a91c-282f7ad87505)
 
 
 [https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf) 
@@ -160,6 +152,9 @@
 * Dimensiones del módulo: 50 x 38 x 21 mm  
 * Calibración: Calibrado de fábrica, no requiere calibración frecuente  
 * Salidas de conexión: UART, interfaz de comunicación digital
+
+![image](https://github.com/user-attachments/assets/7de13545-5347-4eb1-b54c-84f6ff79e1c2)
+
 
 [https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual\_v2-3.pdf](https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf) 
 
@@ -188,6 +183,8 @@
   de señal (analog output)  
 * Tiempo de vida: 5 años
 
+![image](https://github.com/user-attachments/assets/d70ec779-f4c1-4230-b51c-4636a88e35ef)
+
 
 ## **MH-Z19** 
 
@@ -213,7 +210,10 @@
 * Compatibilidad: Compatible con una variedad de microcontroladores y  
    sistemas de adquisición de datos.  
 * Instrucciones de Uso: Requiere conexión a un microcontrolador o dispositivo  compatible con UART para recibir y procesar los datos   
-* Precauciones: Evitar la exposición a gases corrosivos o inflamables que puedan  dañar el sensor. 
+* Precauciones: Evitar la exposición a gases corrosivos o inflamables que puedan  dañar el sensor.
+
+  ![image](https://github.com/user-attachments/assets/402409a8-d5cf-428e-a84e-cc675175a367)
+
 
 [https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19c-pins-type-co2-manual-ver1\_0.pdf](https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19c-pins-type-co2-manual-ver1_0.pdf)
 
@@ -240,6 +240,9 @@
 * Tipo de suelo: Evitar exposición prolongada a la humedad, calibración  
    periódica puede ser necesaria según las condiciones ambientales
 
+![image](https://github.com/user-attachments/assets/b71fa090-c769-472d-9c90-63547a7fa7eb)
+
+
 [https://www.electronicoscaldas.com/datasheet/YL-69-HL-69.pdf](https://www.electronicoscaldas.com/datasheet/YL-69-HL-69.pdf) 
 
 **PIRANÓMETRO**
@@ -264,3 +267,4 @@
 * Conexiones: Salida de señal analógica (algunos modelos pueden tener  
    opciones de salida digital, RS-232, o interfaces USB)
 
+![image](https://github.com/user-attachments/assets/e9df7707-526b-40d2-96e0-1b7651a5aad9)
