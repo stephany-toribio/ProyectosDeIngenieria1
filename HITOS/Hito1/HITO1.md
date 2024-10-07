@@ -103,7 +103,7 @@ En la siguiente carpeta tendra una carpeta de imagenes con la visualizacion del 
 [Carpeta Evidencias](https://github.com/stephany-toribio/ProyectosDeIngenieria1/tree/main/Entregables/2%C2%B0Entregable/Evidencia)
 
 <p align="left">
-  <h2 align="center">Modificación posterior</h2>
+  <h2 align="left">Modificación posterior</h2>
 </p>
 
 Nuestro circuito electronico ha sufrido cambios comparado con la pcb que mostramos con anterioridad, primero explicaremos las conexiones y luego mencionaremos los cambios que se realizaron.
