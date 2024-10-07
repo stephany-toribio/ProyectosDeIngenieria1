@@ -86,7 +86,7 @@ Conforme al acápite G del Protocolo estipula que los sensores de bajo costo, o 
 - [2] R. Quiza, L. A. V. Fajardo, and Y. J. C. Hernández, "Arquitectura de monitoreo inteligente y de bajo costo para sistemas y procesos mecánicos," Low-cost intelligent monitoring architecture for mechanical systems and processes.
 
 - [3] "Fenómeno El Niño", Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI). [En línea]. Disponible: https://www.senamhi.gob.pe/?p=fenomeno-el-nino, 2024.
-
 - [4] ISO 14001:2015(es), Sistemas de gestión ambiental—Requisitos con orientación para su uso. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso:std:iso:14001:ed-3:v1:es
-  
-- [5] ISO 27001—Certificado ISO 27001 punto por punto—Presupuesto Online. (s. f.). Norma ISO 27001. Recuperado 6 de octubre de 2024, de https://www.normaiso27001.es/
+- [5] ISO 10012:2003(es), Sistemas de gestión de las mediciones—Requisitos para los procesos de medición y los equipos de medición. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui#iso%3Astd%3Aiso%3A10012%3Aed-1%3Av1%3Aes
+- [6] ISO/IEC 17025:2017(es), Requisitos generales para la competencia de los laboratorios de ensayo y calibración. (s. f.). Recuperado 6 de octubre de 2024, de https://www.iso.org/obp/ui/#iso:std:iso-iec:17025:ed-3:v2:es
+- [7]  ISO 27001—Certificado ISO 27001 punto por punto—Presupuesto Online. (s. f.). Norma ISO 27001. Recuperado 6 de octubre de 2024, de https://www.normaiso27001.es/
