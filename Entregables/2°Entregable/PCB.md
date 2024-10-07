@@ -86,3 +86,10 @@ A continuacion explicaremos los cambios realizados y comparando con la antigua p
 </p>
 <p align="center" class="note text-center note-white" > Izquierda circuito antiguo --- Derecha circuito actualizado </p>
 <p align="center" class="note text-center note-white">FUENTE: Figura 3(Circuito electricos). Elaboración Propia</p>
+
+<p align="center">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB_antigua.PNG" alt="PCB ensamblada" width="48%">
+  <img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/HITOS/Hito1/Avances/imgs/PCB_nueva.PNG" alt="PCB ensamblada 2" width="48%">
+</p>
+<p align="center" class="note text-center note-white" > Izquierda PCB antiguo --- Derecha PCB actualizado </p>
+<p align="center" class="note text-center note-white">FUENTE: Figura 4(PCB actualizada). Elaboración Propia</p>
