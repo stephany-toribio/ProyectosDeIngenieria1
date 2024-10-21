@@ -41,9 +41,7 @@ Desarrollar una interfaz de usuario amigable para la visualización de datos en 
 ## SENSORES
 | **Parámetro**              | **Sensor**   | **Características técnicas**| **Funcionamiento**  |
 |----------------------------|--------------|-----------------------------|---------------------|
-| **Temperatura**            |              | Voltaje de alimentación: 1.8V - 3.3V DC<br>Rango de Presión: 300 a 1100 hPa<br>Rango de Temperatura: -40°C a 85°C<br>Rango de Humedad Relativa: 0-100% RH                        | Sensor de temperatura, humedad y presión atmosférica.                                                                                     |
-| **Humedad relativa**       |              |                                 |                  |
-| **Presión atmosférica**    |              |                                 |                  |
+| **Temperatura**  **Humedad relativa**  **Presión atmosférica**          |              | Voltaje de alimentación: 1.8V - 3.3V DC<br>Rango de Presión: 300 a 1100 hPa<br>Rango de Temperatura: -40°C a 85°C<br>Rango de Humedad Relativa: 0-100% RH                        | Sensor de temperatura, humedad y presión atmosférica.                                                                                     |
 | **Radiación UV**           | ML8511       | Voltaje de alimentación: 5V DC<br>Corriente de alimentación: 300 µA<br>Vatio: 0.0015 W<br>Rango de detección: 280-390 nm  | Convertidor analógico digital, que convierte la foto-corriente en voltaje en función de la cantidad de radiación UV.     |
 | **Ozono (O₃)**             | MQ-131       | Voltaje de Operación: 5V DC<br>Rango de detección: 10 a 1000 ppb<br>Resistencia de calefacción: 41 Ohm<br>Tiempo de respuesta: 60 s                                             | Mide concentraciones de Ozono en el aire capaz de detectar concentraciones de hasta 1000 ppb.                                                                                   |
 | **Velocidad del viento**   | Anemómetro   | Voltaje del motor: 5-12V DC<br>Voltaje del encoder: 3.3-5V DC  | Mediciones de la velocidad mediante pulsaciones y la variación de voltaje.   |
