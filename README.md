@@ -3,6 +3,7 @@
 Somos un grupo de 5 estudiantes de la carrera de Ingeniería informatíca en la Universidad Peruana Cayetano Heredia,
 durante este periodo nosotros como equipo decidimos desarollar  un modulo de parametrización de la calidad del aire y del suelo.
 
+
 |Integrantes |Carrera|Cargo|Contacto|
 |------------|-------|-----|--------|
 |Stephany M. Toribio Alvarado|Ingeniería Informática|Coordinadora de Modelado 3D|stephany.toribio@upch.pe|
@@ -10,4 +11,7 @@ durante este periodo nosotros como equipo decidimos desarollar  un modulo de par
 |Camilo S. Silva Cuzqui|Ingeniería Informática|Coordinador de IT |camilo.silva@upch.pe|
 |Bruno P. Gavidia Crovetto|Ingeniería Informática|Coordinador de Software|bruno.gavidia@upch.pe|
 |Jhunior F. Herrera Valeriano|Ingeniería Informática|Coordinador de Hardware|[Linkedin](https://www.linkedin.com/in/jhunior-herrera-valeriano-358350294/)|
+
+<p align="center"><img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Imagenes/Grupo/Grupo.jpeg" width="700" height="400" style="margin: auto;"></p>
+
 
