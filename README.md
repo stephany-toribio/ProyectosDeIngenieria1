@@ -16,6 +16,8 @@ durante este periodo nosotros como equipo decidimos desarollar  un modulo de par
 
 ## ODS
  La propuesta refleja el compromiso de la universidad alineado con los Objetivos de Desarrollo Sostenible (ODS), incorporando específicamente el ODS 7; “Energía Asequible y No Contaminante”; y ODS 11, “Ciudades y Comunidades sostenibles” centrados en el uso de energías renovables como alternativas para la alimentación del sistema, en buscar disminuir la brecha tecnológica con un dispositivo de monitoreo low cost y eficiente, y en el desarrollo de una comunidad universitaria más sostenible a través del monitoreo del impacto de las actividades de la misma en el ambiente para asegurar un espacio propicio para el desarrollo académico y vital para la salud y bienestar de la comunidad universitaria
+<img src="https://www.un.org/sustainabledevelopment/es/wp-content/uploads/sites/3/2018/07/S_SDG-goals_icons-individual-rgb-07.png" alt="Sustainable Development Goals" width="300" height="auto"/>
+<img src="https://www.pactomundial.org/wp-content/uploads/2021/10/10-reduccion-de-las-desigualdades-3.jpg" alt="Sustainable Development Goals" width="300" height="auto"/>
 
 ## SENSORES
 | **Parámetro**              | **Sensor**   | **Características técnicas**| **Funcionamiento**  |
