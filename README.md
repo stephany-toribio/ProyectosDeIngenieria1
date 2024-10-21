@@ -24,14 +24,16 @@ Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del 
 
 ### Objetivos Específicos
 
-Monitorear la calidad del aire para evaluar la variabilidad climática y la dispersión de los parámetros de estudio con respecto al tiempo.
-Monitorear las condiciones del suelo para evaluar su idoneidad en cuanto a la cobertura vegetal u otros usos.
-Validar y calibrar los sensores low cost de monitoreo en el campus de Santa María. 
-Diseñar un módulo de monitoreo que busque el uso de fuentes de energía renovable para disminuir su huella de carbono e impacto en el ambiente.
-Desarrollar una interfaz de usuario amigable para la visualización de datos en tiempo real.
+<ul>
+    <li>Monitorear la calidad del aire para evaluar la variabilidad climática y la dispersión de los parámetros de estudio con respecto al tiempo.</li>
+    <li>Monitorear las condiciones del suelo para evaluar su idoneidad en cuanto a la cobertura vegetal u otros usos.</li>
+    <li>Validar y calibrar los sensores low cost de monitoreo en el campus de Santa María.</li>
+    <li>Diseñar un módulo de monitoreo que busque el uso de fuentes de energía renovable para disminuir su huella de carbono e impacto en el ambiente.</li>
+    <li>Desarrollar una interfaz de usuario amigable para la visualización de datos en tiempo real.</li>
+</ul>
 
 ## ODS
- La propuesta refleja el compromiso de la universidad alineado con los Objetivos de Desarrollo Sostenible (ODS), incorporando específicamente el ODS 7; “Energía Asequible y No Contaminante”; y ODS 11, “Ciudades y Comunidades sostenibles” centrados en el uso de energías renovables como alternativas para la alimentación del sistema, en buscar disminuir la brecha tecnológica con un dispositivo de monitoreo low cost y eficiente, y en el desarrollo de una comunidad universitaria más sostenible a través del monitoreo del impacto de las actividades de la misma en el ambiente para asegurar un espacio propicio para el desarrollo académico y vital para la salud y bienestar de la comunidad universitaria.
+La propuesta refleja el compromiso de la universidad alineado con los Objetivos de Desarrollo Sostenible (ODS), incorporando específicamente el ODS 7; “Energía Asequible y No Contaminante”; y ODS 11, “Ciudades y Comunidades sostenibles” centrados en el uso de energías renovables como alternativas para la alimentación del sistema, en buscar disminuir la brecha tecnológica con un dispositivo de monitoreo low cost y eficiente, y en el desarrollo de una comunidad universitaria más sostenible a través del monitoreo del impacto de las actividades de la misma en el ambiente para asegurar un espacio propicio para el desarrollo académico y vital para la salud y bienestar de la comunidad universitaria.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sustainable_Development_Goal-es-11.jpg" width="400px"/>
@@ -41,7 +43,7 @@ Desarrollar una interfaz de usuario amigable para la visualización de datos en 
 ## SENSORES
 | **Parámetro**              | **Sensor**   | **Características técnicas**| **Funcionamiento**  |
 |----------------------------|--------------|-----------------------------|---------------------|
-| ***Temperatura**  ***Humedad relativa**  ***Presión atmosférica**          |              | Voltaje de alimentación: 1.8V - 3.3V DC<br>Rango de Presión: 300 a 1100 hPa<br>Rango de Temperatura: -40°C a 85°C<br>Rango de Humedad Relativa: 0-100% RH                        | Sensor de temperatura, humedad y presión atmosférica.                                                                                     |
+| **Temperatura**  **Humedad relativa**  **Presión atmosférica**          |              | Voltaje de alimentación: 1.8V - 3.3V DC<br>Rango de Presión: 300 a 1100 hPa<br>Rango de Temperatura: -40°C a 85°C<br>Rango de Humedad Relativa: 0-100% RH                        | Sensor de temperatura, humedad y presión atmosférica.                                                                                     |
 | **Radiación UV**           | Piranómetro      | Voltaje de operación: Generalmente, no requiere fuente de alimentación externa(depende del modelo, algunos pueden requerir entre 5V y 12V si tienen amplificador integrado)| El sensor de radiación solar mide la radiación global solar de 300 hasta 2800 nm, con un amplificador de señal interno y una carcasa impermeable que no requiere mantenimiento solo limpieza incidentalmente del domo de cuarzo.|
 | **Ozono (O₃)**             | MQ-131       | Voltaje de Operación: 5V DC<br>Rango de detección: 10 a 1000 ppb<br>Resistencia de calefacción: 41 Ohm<br>Tiempo de respuesta: 60 s                                             | Mide concentraciones de Ozono en el aire capaz de detectar concentraciones de hasta 1000 ppb.                                                                                   |
 | **Velocidad del viento**   | Anemómetro   | Voltaje del motor: 5-12V DC<br>Voltaje del encoder: 3.3-5V DC  | Mediciones de la velocidad mediante pulsaciones y la variación de voltaje.   |
