@@ -3,7 +3,7 @@
 Somos un grupo de 5 estudiantes de la carrera de Ingeniería informatíca en la Universidad Peruana Cayetano Heredia,
 durante este periodo nosotros como equipo decidimos desarollar  un modulo de parametrización de la calidad del aire y del suelo.
 
-<p align="center"><img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Imagenes/Grupo/Grupo.jpeg" width="700" height="700" style="margin: auto;"></p>
+<p align="center"><img src="https://github.com/stephany-toribio/ProyectosDeIngenieria1/blob/main/Imagenes/Grupo/Grupo.jpeg" width="700" height="500" style="margin: auto;"></p>
 
 |Integrantes |Carrera|Cargo|Contacto|
 |------------|-------|-----|--------|
