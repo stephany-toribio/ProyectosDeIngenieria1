@@ -57,3 +57,74 @@ La propuesta refleja el compromiso de la universidad alineado con los Objetivos 
 
 
 ## TRL 1
+
+### Contexto
+El proyecto se enfoca en el monitoreo ambiental utilizando sensores especializados para evaluar la calidad del aire, la radiación solar y la calidad del suelo.
+
+### 1. Sensor de Temperatura, Humedad y Presión (BME280)
+**Principio tecnológico:** El sensor BME280 es un dispositivo avanzado diseñado para medir temperatura, humedad y presión atmosférica de manera precisa. Emplea un termistor para la detección de temperatura, un sensor de humedad capacitivo para medir la humedad relativa y un sensor piezorresistivo para la medición de presión. Su elección se fundamenta en la combinación de precios competitivos y resultados altamente precisos.
+
+### 2. Piranómetro Solar
+**Principio tecnológico:** Este instrumento está diseñado para medir la radiación solar obteniendo espectros magnéticos entre 300 nm a 2800 nm. Este sensor tiene una conexión con salida de señal analógica para que nos dé un espectro continuo en cada tiempo con respuesta ≤ 1 segundo. Su elección se fundamenta en los resultados altamente precisos en comparación con otros sensores.
+
+### 3. Sensor de Ozono (MQ-131)
+**Principio tecnológico:** Este sensor está compuesto por un elemento sensible de óxido de estaño (SnO₂) que varía su resistencia en presencia de ozono. Un circuito de medición detecta el cambio de resistencia y lo convierte en una señal eléctrica.
+
+**Ecuación de la recta:**
+\[ y = mx + b \]
+
+**Pendiente:**
+\[ m = \frac{[\log(y) - \log(y_0)]}{[\log(x) - \log(x_0)]} = \frac{\log(yy_0)}{\log(xx_0)} \]
+
+**Intercepción de Y:**
+\[ b = \log(y_b) - m \cdot \log(x_b) = \log(x) = \frac{[\log(y) - b]}{m} \]
+
+**Valor aproximado en ppm:**
+\[ x = 10^{\log(y) - bm} \]
+
+### 4. Anemómetro (para Velocidad del Viento)
+**Principio tecnológico:** El anemómetro utiliza un rotor con aspas que, al girar con el viento, genera pulsos eléctricos. Estos pulsos son detectados por un encoder que mide el número de rotaciones y las convierte en una señal de voltaje.
+
+### 5. Veleta (para Dirección del Viento)
+**Principio tecnológico:** La veleta mide la dirección del viento a través de un sistema mecánico que ajusta un eje en función de la variación en la dirección del viento. Un potenciómetro conectado al eje genera un voltaje variable que refleja dicha dirección. El microcontrolador interpreta este voltaje y lo convierte en un ángulo de dirección del viento, que se visualiza en la interfaz de usuario. Su diseño fue modelado e impreso en material PLA.
+
+### 6. Sensor de Material Particulado (PMS5003)
+**Principio tecnológico:** El sensor PMS5003 utiliza un láser y un fotodiodo para detectar partículas en el aire. El láser ilumina las partículas suspendidas, y el fotodiodo mide la luz dispersada. El sensor envía esta información en forma de datos digitales al microcontrolador a través de una interfaz serial UART, que calcula la cantidad y el tamaño de las partículas presentes en el aire (PM2.5, PM10).
+
+### 7. Sensor de Monóxido de Carbono (CO) MQ-7
+**Principio tecnológico:** El sensor MQ-7 utiliza un material semiconductor que cambia su resistencia al detectar la presencia de monóxido de carbono.
+
+**Modelo Matemático:**
+
+**Ecuación de la recta:**
+\[ y = mx + b \]
+
+**Pendiente:**
+\[ m = \frac{[\log(y) - \log(y_0)]}{[\log(x) - \log(x_0)]} = \frac{\log(yy_0)}{\log(xx_0)} \]
+
+**Intercepción de Y:**
+\[ b = \log(y_b) - m \cdot \log(x_b) = \log(x) = \frac{[\log(y) - b]}{m} \]
+
+**Valor aproximado en ppm:**
+\[ x = 10^{\log(y) - bm} \]
+
+### 8. Sensor de Dióxido de Carbono (CO₂) MH-Z19B
+**Principio tecnológico:** Este sensor infrarrojo utiliza el principio de absorción de luz para medir el CO₂. El sensor emite luz infrarroja que pasa a través del aire y es absorbida por el CO₂ en ciertas longitudes de onda. La cantidad de luz absorbida es medida y convertida en un valor de concentración de CO₂, que es transmitido al microcontrolador mediante una señal UART.
+
+### 9. Sensor de Metano (MQ-4)
+**Principio tecnológico:** El sensor MQ-4 utiliza un material sensible que cambia su resistencia al estar en contacto con el gas. La variación de resistencia genera una señal que es convertida en voltaje por un circuito.
+
+**Ecuación de la recta:**
+\[ y = mx + b \]
+
+**Pendiente:**
+\[ m = \frac{[\log(y) - \log(y_0)]}{[\log(x) - \log(x_0)]} = \frac{\log(yy_0)}{\log(xx_0)} \]
+
+**Intercepción de Y:**
+\[ b = \log(y_b) - m \cdot \log(x_b) = \log(x) = \frac{[\log(y) - b]}{m} \]
+
+**Valor aproximado en ppm:**
+\[ x = 10^{\log(y) - bm} \]
+
+### 10. Sensor de Humedad del Suelo (YL-69)
+**Principio tecnológico:** El sensor YL-69 mide la humedad del suelo utilizando una sonda resistiva. A medida que la humedad en el suelo aumenta, la resistencia entre las sondas disminuye. El microcontrolador mide esta resistencia y calcula la cantidad de agua presente en el suelo, permitiendo un monitoreo preciso de las condiciones del suelo.
