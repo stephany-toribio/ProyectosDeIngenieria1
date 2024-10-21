@@ -4,5 +4,6 @@ Las mediciones de los parámetros del suelo son un indicador crucial de la activ
 
 Además, medir el CO₂ en el suelo nos ayudará a determinar si la presencia de agua puede formar carbonatos o acidificar el suelo. Esto, a su vez, nos permitirá identificar si el suelo es muy alcalino o ácido, lo que podría limitar su uso para la siembra, resultando en un suelo infértil.
 
-![image](https://github.com/user-attachments/assets/773f49ed-e367-4f16-a161-64100f945cf1)
+<p align="center"><img src="https://github.com/user-attachments/assets/773f49ed-e367-4f16-a161-64100f945cf1" width="600" height="400" style="margin: auto;"></p>
 
+<p align="center" class="note text-center note-white">FUENTE: Figura 1 (Suelo en la sede de Santa Maria - UPCH). Elaboración Propia</p>
