@@ -13,6 +13,22 @@ durante este periodo nosotros como equipo decidimos desarollar  un modulo de par
 |Bruno P. Gavidia Crovetto|Ingeniería Informática|Coordinador de Software|bruno.gavidia@upch.pe|
 |Jhunior F. Herrera Valeriano|Ingeniería Informática|Coordinador de Hardware|[Linkedin](https://www.linkedin.com/in/jhunior-herrera-valeriano-358350294/)|
 
+## Justificación de la propuesta
+La presente propuesta surge como respuesta a la necesidad de generar información referente a parámetros ambientales vinculados al monitoreo de la calidad del aire y del suelo en el campus de Santa María del Mar a través del desarrollo y la implementación de un sistema de monitoreo continuo para la recolección de datos en tiempo real, así como evaluar las posibles rutas de dispersión de fuentes contaminantes del entorno asociados al crecimiento urbano y expansión industrial cerca a la sede, y el diseño de un sistema que busque adaptarse para abordar estas amenazas.
+
+## Objetivos
+
+### Objetivo General
+
+Diseñar e implementar un dispositivo de monitoreo de la calidad del aire y del suelo mediante un módulo integral para el estudio de factores de riesgo ambiental en la sede de Santa María - UPCH.
+
+### Objetivos Específicos
+
+Monitorear la calidad del aire para evaluar la variabilidad climática y la dispersión de los parámetros de estudio con respecto al tiempo.
+Monitorear las condiciones del suelo para evaluar su idoneidad en cuanto a la cobertura vegetal u otros usos.
+Validar y calibrar los sensores low cost de monitoreo en el campus de Santa María. 
+Diseñar un módulo de monitoreo que busque el uso de fuentes de energía renovable para disminuir su huella de carbono e impacto en el ambiente.
+Desarrollar una interfaz de usuario amigable para la visualización de datos en tiempo real.
 
 ## ODS
  La propuesta refleja el compromiso de la universidad alineado con los Objetivos de Desarrollo Sostenible (ODS), incorporando específicamente el ODS 7; “Energía Asequible y No Contaminante”; y ODS 11, “Ciudades y Comunidades sostenibles” centrados en el uso de energías renovables como alternativas para la alimentación del sistema, en buscar disminuir la brecha tecnológica con un dispositivo de monitoreo low cost y eficiente, y en el desarrollo de una comunidad universitaria más sostenible a través del monitoreo del impacto de las actividades de la misma en el ambiente para asegurar un espacio propicio para el desarrollo académico y vital para la salud y bienestar de la comunidad universitaria.
